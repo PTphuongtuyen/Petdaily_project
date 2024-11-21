@@ -1,0 +1,614 @@
+[
+    {
+        "maLinhVuc": "CS",
+        "linhVuc": "Chăm sóc sức khỏe",
+        "hinh": "assets/images/CCS007.jpg",
+        "goiDichVu": [
+            {
+                "image": "assets/images/CCS001.jpg",
+                "maGoi": "CCS001",
+                "tenGoi": "Khám và Điều Trị Bệnh",
+                "moTa": "Dịch vụ khám và điều trị bệnh tại cửa hàng dành cho thú cưng có triệu chứng bệnh, thực hiện bởi đội ngũ bác sĩ thú y chuyên nghiệp.",
+                "chiTiet": [
+                    "Tiếp nhận thông tin chủ nuôi và thú cưng, các dấu hiệu, triệu chứng và biểu hiện bệnh lý của thú cưng.",
+                    "Khám lâm sàng, kiểm tra sàng lọc và đánh giá về tình trạng sức khỏe hiện tại của thú cưng, chế độ dinh dưỡng, chăm sóc ở nhà của chủ nuôi.",
+                    "Tư vấn, giải đáp các thắc mắc và thông báo các xét nghiệm chuyên khoa và chi phí phát sinh (nếu có)",
+                    "Thực hiện các xét nghiệm sàng lọc bệnh truyền nhiễm (Khi thú cưng có biểu hiện bệnh lý liên quan), điều này cực kỳ quan trong giúp thú cưng tầm soát bệnh truyền nhiễm và đảm bảo vấn đề dịch tễ.",
+                    "Khám kiểm tra các vấn đề về phổi, hệ tiêu hóa: dạ dày, ruột, hệ nội tiết: đường huyết, các rối loạn hormone, khám các vấn đề về bài tiết: thận, niệu quản, bàng quang, niệu đạo…",
+                    "Khi thú cưng gặp phải bệnh lý không quá nghiêm trọng, bác sĩ thực hiện các biện pháp điều trị đơn giản như tiêm thuốc, uống thuốc… hoặc đã phục hồi sức khỏe sau một thời gian điều trị nội trú cho phép thú cưng trở về nhà và đến viện điều trị hàng ngày.",
+                    "Khi thú cưng gặp phải bệnh lý nguy hiểm, thực hiện thủ tục nhập viện, chăm sóc điều trị chuyên sâu với sự giám sát liên tục từ đội ngũ y bác sĩ, đảm bảo thú cưng nhận được sự chăm sóc kịp thời và theo dõi sát sao hàng ngày."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "200000"
+            },
+            {
+                "image": "assets/images/CCS002.jpg",
+                "maGoi": "CCS002",
+                "tenGoi": "Tầm Soát Sức Khỏe - Gói Khám Cơ Bản",
+                "moTa": "Gói khám cơ bản cung cấp các dịch vụ kiểm tra sức khỏe thiết yếu cho thú cưng, như khám tổng quát, xét nghiệm máu, siêu âm và tư vấn dinh dưỡng.",
+                "chiTiet": [
+                    "Khám lâm sàng (Nhiệt độ, hô hấp, mắt, răng, miệng, lông, da, vận động).",
+                    "Xét nghiệm kiểm tra chuyên sâu tai và da liễu.",
+                    "Kiểm tra, xét nghiệm ký sinh trùng đường tiêu hóa.",
+                    "Siêu âm chuyên sâu ổ bụng.",
+                    "Xét nghiệm máu tổng quát (Sinh lý & sinh hóa máu).",
+                    "Tư vấn dinh dưỡng, chế độ chăm sóc."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "200000"
+            },
+            {
+                "image": "assets/images/CCS003.jpg",
+                "maGoi": "CCS003",
+                "tenGoi": "Tầm Soát Sức Khỏe - Gói khám tổng quát",
+                "moTa": "Gói khám tổng quát mang đến giải pháp kiểm tra sức khỏe toàn diện cho thú cưng. Dịch vụ bao gồm khám lâm sàng chi tiết, xét nghiệm máu, siêu âm ổ bụng và đánh giá chức năng nội tạng, cùng các xét nghiệm bệnh truyền nhiễm và ký sinh trùng. Qua đó, gói dịch vụ giúp phát hiện sớm các vấn đề sức khỏe và tư vấn dinh dưỡng phù hợp để tăng cường sức khỏe thú cưng.",
+                "chiTiet": [
+                    "Khám lâm sàng (Nhiệt độ, hô hấp, mắt, răng, miệng, lông, da, vận động).",
+                    "Xét nghiệm kiểm tra chuyên sâu tai và da liễu.",
+                    "Kiểm tra, xét nghiệm ký sinh trùng đường tiêu hóa.",
+                    "Siêu âm chuyên sâu ổ bụng.",
+                    "Xét nghiệm máu tổng quát (Sinh lý & sinh hóa máu).",
+                    "Tư vấn dinh dưỡng, chế độ chăm sóc.",
+                    "Xét nghiệm bệnh truyền nhiễm.",
+                    "Xét nghiệm ký sinh trùng đường máu và xét nghiệm tế bào học."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "300000"
+            },
+            {
+                "image": "assets/images/CCS004.jpg",
+                "maGoi": "CCS004",
+                "tenGoi": "Tầm Soát Sức Khỏe - Gói Khám Chuyên Sâu",
+                "moTa": "Gói Khám Chuyên Sâu cung cấp một giải pháp kiểm tra sức khỏe toàn diện và chuyên sâu cho thú cưng. Với các dịch vụ từ khám lâm sàng chi tiết, xét nghiệm máu tổng quát, siêu âm ổ bụng đến kiểm tra ký sinh trùng, bệnh truyền nhiễm và chức năng nội tạng, gói này đảm bảo phát hiện kịp thời các vấn đề sức khỏe tiềm ẩn. Ngoài ra, chụp X-quang và xét nghiệm nước tiểu cũng được bao gồm để đánh giá toàn diện hơn, cùng với tư vấn về dinh dưỡng và chế độ chăm sóc tối ưu cho sức khỏe thú cưng.",
+                "chiTiet": [
+                    "Khám lâm sàng (Nhiệt độ, hô hấp, mắt, răng, miệng, lông, da, vận động).",
+                    "Xét nghiệm kiểm tra chuyên sâu tai và da liễu.",
+                    "Kiểm tra, xét nghiệm ký sinh trùng đường tiêu hóa.",
+                    "Siêu âm chuyên sâu ổ bụng.",
+                    "Xét nghiệm máu tổng quát (Sinh lý & sinh hóa máu).",
+                    "Tư vấn dinh dưỡng, chế độ chăm sóc.",
+                    "Xét nghiệm bệnh truyền nhiễm.",
+                    "Xét nghiệm ký sinh trùng đường máu và xét nghiệm tế bào học.",
+                    "Chụp X-quang (Xương khớp, xoang bụng, xoang ngực).",
+                    "Xét nghiệm nước tiểu."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "400000"
+            },
+            {
+                "image": "assets/images/CCS005.jpg",
+                "maGoi": "CCS005",
+                "tenGoi": "Tiêm phòng - Vaccine 4 bệnh",
+                "moTa": "Tiêm vaccine 4 bệnh phòng các bệnh: Bệnh suy giảm bạch cầu, viêm mũi khí quản truyền nhiễm, bệnh hô hấp do Calicivirus, bệnh hô hấp do Chlamydia Psittaci.",
+                "chiTiet": [
+                    "Chó từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi chó đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên chó  Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho chó tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "150000"
+            },
+            {
+                "image": "assets/images/CCS005.jpg",
+                "maGoi": "CCS006",
+                "tenGoi": "Tiêm phòng - Vaccine 4 bệnh",
+                "moTa": "Tiêm vaccine 4 bệnh phòng các bệnh: Bệnh suy giảm bạch cầu, viêm mũi khí quản truyền nhiễm, bệnh hô hấp do Calicivirus, bệnh hô hấp do Chlamydia Psittaci.",
+                "chiTiet": [
+                    "Chó từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi chó đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên chó  Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho chó tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."  
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "200000"
+            },
+            {
+                "image": "assets/images/CCS007.jpg",
+                "maGoi": "CCS007",
+                "tenGoi": "Tiêm phòng - Vaccine dại",
+                "moTa": "Bệnh dại là căn bệnh nguy hiểm gây chết vật nuôi. Đây còn là bệnh lây từ chó sang người hiện nay chưa có thuốc đặc trị và có tỷ lệ tử vong cao. Tiêm phòng dại cho chó được coi là cách hiệu quả nhất để bảo vệ cả vật nuôi và con người trước nguy cơ nhiễm virus dại.",
+                "chiTiet": [
+                    "Chó từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi chó đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên chó  Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho chó tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."  
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "100000"
+            },
+            {
+                "image": "assets/images/CCS007.jpg",
+                "maGoi": "CCS008",
+                "tenGoi": "Tiêm phòng - Vaccine dại",
+                "moTa": "Bệnh dại là căn bệnh nguy hiểm gây chết vật nuôi. Đây còn là bệnh lây từ chó sang người hiện nay chưa có thuốc đặc trị và có tỷ lệ tử vong cao. Tiêm phòng dại cho chó được coi là cách hiệu quả nhất để bảo vệ cả vật nuôi và con người trước nguy cơ nhiễm virus dại.",
+                "chiTiet": [
+                    "Chó từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi chó đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên chó  Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho chó tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."  
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "100000"
+            },
+            {
+                "image": "assets/images/CCS009.jpg",
+                "maGoi": "CCS009",
+                "tenGoi": "Tiêm phòng - Vaccine 4 bệnh + dại",
+                "moTa": "Tiêm vaccine 4 bệnh + dại hàng năm giúp chó tránh được các bệnh truyền nhiễm nguy hiểm và bệnh dại – những bệnh có thể gây tử vong. Vaccine không chỉ bảo vệ sức khỏe chó mà còn ngăn ngừa lây lan bệnh sang con người và động vật khác, giúp đảm bảo an toàn cho cộng đồng.",
+                "chiTiet": [
+                    "Chó từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi chó đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên chó  Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho chó tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."  
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "300000"
+            },
+            {
+                "image": "assets/images/CCS009.jpg",
+                "maGoi": "CCS010",
+                "tenGoi": "Tiêm phòng - Vaccine 4 bệnh + dại",
+                "moTa": "Tiêm vaccine 4 bệnh + dại hàng năm giúp chó tránh được các bệnh truyền nhiễm nguy hiểm và bệnh dại – những bệnh có thể gây tử vong. Vaccine không chỉ bảo vệ sức khỏe chó mà còn ngăn ngừa lây lan bệnh sang con người và động vật khác, giúp đảm bảo an toàn cho cộng đồng.",
+                "chiTiet": [
+                    "Chó từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi chó đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên chó  Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho chó tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."  
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "350000"
+            },
+            {
+                "image": "assets/images/MCS001.jpg",
+                "maGoi": "MCS001",
+                "tenGoi": "Khám và Điều Trị Bệnh",
+                "moTa": "Dịch vụ khám và điều trị bệnh tại cửa hàng dành cho thú cưng có triệu chứng bệnh, thực hiện bởi đội ngũ bác sĩ thú y chuyên nghiệp.",
+                "chiTiet": [
+                    "Tiếp nhận thông tin chủ nuôi và thú cưng, các dấu hiệu, triệu chứng và biểu hiện bệnh lý của thú cưng.",
+                    "Khám lâm sàng, kiểm tra sàng lọc và đánh giá về tình trạng sức khỏe hiện tại của thú cưng, chế độ dinh dưỡng, chăm sóc ở nhà của chủ nuôi.",
+                    "Tư vấn, giải đáp các thắc mắc và thông báo các xét nghiệm chuyên khoa và chi phí phát sinh (nếu có)",
+                    "Thực hiện các xét nghiệm sàng lọc bệnh truyền nhiễm (Khi thú cưng có biểu hiện bệnh lý liên quan), điều này cực kỳ quan trong giúp thú cưng tầm soát bệnh truyền nhiễm và đảm bảo vấn đề dịch tễ.",
+                    "Khám kiểm tra các vấn đề về phổi, hệ tiêu hóa: dạ dày, ruột, hệ nội tiết: đường huyết, các rối loạn hormone, khám các vấn đề về bài tiết: thận, niệu quản, bàng quang, niệu đạo…",
+                    "Khi thú cưng gặp phải bệnh lý không quá nghiêm trọng, bác sĩ thực hiện các biện pháp điều trị đơn giản như tiêm thuốc, uống thuốc… hoặc đã phục hồi sức khỏe sau một thời gian điều trị nội trú cho phép thú cưng trở về nhà và đến viện điều trị hàng ngày.",
+                    "Khi thú cưng gặp phải bệnh lý nguy hiểm, thực hiện thủ tục nhập viện, chăm sóc điều trị chuyên sâu với sự giám sát liên tục từ đội ngũ y bác sĩ, đảm bảo thú cưng nhận được sự chăm sóc kịp thời và theo dõi sát sao hàng ngày."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "300000"
+            },
+            {
+                "image": "assets/images/MCS002.jpg",
+                "maGoi": "MCS002",
+                "tenGoi": "Tầm Soát Sức Khỏe - Gói Khám Cơ Bản",
+                "moTa": "Gói khám cơ bản cung cấp các dịch vụ kiểm tra sức khỏe thiết yếu cho thú cưng, như khám tổng quát, xét nghiệm máu, siêu âm và tư vấn dinh dưỡng.",
+                "chiTiet": [
+                    "Khám lâm sàng (Nhiệt độ, hô hấp, mắt, răng, miệng, lông, da, vận động).",
+                    "Xét nghiệm kiểm tra chuyên sâu tai và da liễu.",
+                    "Kiểm tra, xét nghiệm ký sinh trùng đường tiêu hóa.",
+                    "Siêu âm chuyên sâu ổ bụng.",
+                    "Xét nghiệm máu tổng quát (Sinh lý & sinh hóa máu).",
+                    "Tư vấn dinh dưỡng, chế độ chăm sóc."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "150000"
+            },
+            {
+                "image": "assets/images/MCS003.jpg",
+                "maGoi": "MCS003",
+                "tenGoi": "Tầm Soát Sức Khỏe - Gói khám tổng quát",
+                "moTa": "Gói khám tổng quát mang đến giải pháp kiểm tra sức khỏe toàn diện cho thú cưng. Dịch vụ bao gồm khám lâm sàng chi tiết, xét nghiệm máu, siêu âm ổ bụng và đánh giá chức năng nội tạng, cùng các xét nghiệm bệnh truyền nhiễm và ký sinh trùng. Qua đó, gói dịch vụ giúp phát hiện sớm các vấn đề sức khỏe và tư vấn dinh dưỡng phù hợp để tăng cường sức khỏe thú cưng.",
+                "chiTiet": [
+                    "Khám lâm sàng (Nhiệt độ, hô hấp, mắt, răng, miệng, lông, da, vận động).",
+                    "Xét nghiệm kiểm tra chuyên sâu tai và da liễu.",
+                    "Kiểm tra, xét nghiệm ký sinh trùng đường tiêu hóa.",
+                    "Siêu âm chuyên sâu ổ bụng.",
+                    "Xét nghiệm máu tổng quát (Sinh lý & sinh hóa máu).",
+                    "Tư vấn dinh dưỡng, chế độ chăm sóc.",
+                    "Xét nghiệm bệnh truyền nhiễm.",
+                    "Xét nghiệm ký sinh trùng đường máu và xét nghiệm tế bào học."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "350000"
+            },
+            {
+                "image": "assets/images/MCS004.jpg",
+                "maGoi": "MCS004",
+                "tenGoi": "Tầm Soát Sức Khỏe - Gói Khám Chuyên Sâu",
+                "moTa": "Gói Khám Chuyên Sâu cung cấp một giải pháp kiểm tra sức khỏe toàn diện và chuyên sâu cho thú cưng. Với các dịch vụ từ khám lâm sàng chi tiết, xét nghiệm máu tổng quát, siêu âm ổ bụng đến kiểm tra ký sinh trùng, bệnh truyền nhiễm và chức năng nội tạng, gói này đảm bảo phát hiện kịp thời các vấn đề sức khỏe tiềm ẩn. Ngoài ra, chụp X-quang và xét nghiệm nước tiểu cũng được bao gồm để đánh giá toàn diện hơn, cùng với tư vấn về dinh dưỡng và chế độ chăm sóc tối ưu cho sức khỏe thú cưng.",
+                "chiTiet": [
+                    "Khám lâm sàng (Nhiệt độ, hô hấp, mắt, răng, miệng, lông, da, vận động).",
+                    "Xét nghiệm kiểm tra chuyên sâu tai và da liễu.",
+                    "Kiểm tra, xét nghiệm ký sinh trùng đường tiêu hóa.",
+                    "Siêu âm chuyên sâu ổ bụng.",
+                    "Xét nghiệm máu tổng quát (Sinh lý & sinh hóa máu).",
+                    "Tư vấn dinh dưỡng, chế độ chăm sóc.",
+                    "Xét nghiệm bệnh truyền nhiễm.",
+                    "Xét nghiệm ký sinh trùng đường máu và xét nghiệm tế bào học.",
+                    "Chụp X-quang (Xương khớp, xoang bụng, xoang ngực).",
+                    "Xét nghiệm nước tiểu."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "650000"
+            },
+            {
+                "image": "assets/images/MCS005.jpg",
+                "maGoi": "MCS005",
+                "tenGoi": "Tiêm phòng - Vaccine 4 bệnh",
+                "moTa": "Tiêm vaccine 4 bệnh phòng các bệnh: Bệnh suy giảm bạch cầu, viêm mũi khí quản truyền nhiễm, bệnh hô hấp do Calicivirus, bệnh hô hấp do Chlamydia Psittaci.",
+                "chiTiet": [
+                    "Mèo từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi mèo đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên mèo. Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho mèo tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "280000"
+            },
+            {
+                "image": "assets/images/MCS005.jpg",
+                "maGoi": "MCS006",
+                "tenGoi": "Tiêm phòng - Vaccine 4 bệnh",
+                "moTa": "Tiêm vaccine 4 bệnh phòng các bệnh: Bệnh suy giảm bạch cầu, viêm mũi khí quản truyền nhiễm, bệnh hô hấp do Calicivirus, bệnh hô hấp do Chlamydia Psittaci.",
+                "chiTiet": [
+                    "Mèo từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi mèo đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên mèo. Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho mèo tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "310000"
+            },
+            {
+                "image": "assets/images/MCS007.jpg",
+                "maGoi": "MCS007",
+                "tenGoi": "Tiêm phòng - Vaccine dại",
+                "moTa": "Tiêm vaccine dại cho mèo để phòng ngừa nguy cơ lây bệnh dại bởi vì mèo có tần suất tiếp xúc nhiều với chuột mang virus dại. Ngoài ra, nguồn virus này có trong tự nhiên thông qua tuyến nước bọt của mèo.",
+                "chiTiet": [
+                    "Mèo từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi mèo đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên mèo. Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho mèo tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "50000"
+            },
+            {
+                "image": "assets/images/MCS007.jpg",
+                "maGoi": "MCS008",
+                "tenGoi": "Tiêm phòng - Vaccine dại",
+                "moTa": "Tiêm vaccine dại cho mèo để phòng ngừa nguy cơ lây bệnh dại bởi vì mèo có tần suất tiếp xúc nhiều với chuột mang virus dại. Ngoài ra, nguồn virus này có trong tự nhiên thông qua tuyến nước bọt của mèo.",
+                "chiTiet": [
+                    "Mèo từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi mèo đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên mèo. Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho mèo tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "70000"
+            },
+            {
+                "image": "assets/images/MCS009.jpg",
+                "maGoi": "MCS009",
+                "tenGoi": "Tiêm phòng - Vaccine 4 bệnh + dại",
+                "moTa": "Gói Tiêm Phòng Vaccine 4 Bệnh + Dại giúp bảo vệ mèo toàn diện với quy trình tiêm phòng theo từng giai đoạn phát triển. Từ 52 ngày tuổi, mèo sẽ được tiêm vaccine 4 bệnh qua ba mũi cơ bản, và tiêm vaccine dại khi đủ 3 tháng tuổi. Ngoài ra, gói còn có vaccine phòng bệnh FIP, đảm bảo sức khỏe bền vững cho mèo qua các mũi nhắc lại hàng năm.",
+                "chiTiet": [
+                    "Mèo từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi mèo đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên mèo. Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho mèo tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "310000"
+            },
+            {
+                "image": "assets/images/MCS009.jpg",
+                "maGoi": "MCS010",
+                "tenGoi": "Tiêm phòng - Vaccine 4 bệnh + dại",
+                "moTa": "Gói Tiêm Phòng Vaccine 4 Bệnh + Dại giúp bảo vệ mèo toàn diện với quy trình tiêm phòng theo từng giai đoạn phát triển. Từ 52 ngày tuổi, mèo sẽ được tiêm vaccine 4 bệnh qua ba mũi cơ bản, và tiêm vaccine dại khi đủ 3 tháng tuổi. Ngoài ra, gói còn có vaccine phòng bệnh FIP, đảm bảo sức khỏe bền vững cho mèo qua các mũi nhắc lại hàng năm.",
+                "chiTiet": [
+                    "Mèo từ 52 ngày tuổi: Tiêm vaccine 4 bệnh mũi 1.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 2.", 
+                    "Sau 4 tuần: Tiêm nhắc lại vaccine 4 bệnh mũi 3.",
+                    "Khi mèo đạt từ 3 tháng tuổi trở lên tiến hành tiêm vaccine phòng Dại, sau đó tiêm nhắc lại mũi vaccine Dại sau 3 tháng.",
+                    "Bên cạnh đó, hiện nay đã có vaccine phòng bệnh FIP (Bệnh viêm phúc mạc truyền nhiễm) trên mèo. Vaccine FIP có thể tiêm cho các bé đạt từ 3 tháng tuổi trở lên, mũi hai tiêm nhắc lại sau mũi một 4 tuần.",
+                    "Khi đã hoàn thành chương trình tiêm trên, hàng năm bạn cần cho mèo tiêm nhắc lại 1 mũi vaccine 4 bệnh, 1 mũi vaccine Dại và 1 mũi vaccine FIP."
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "330000"
+            }
+        ]
+    },
+    {
+        "maLinhVuc": "SG",
+        "linhVuc": "Spa-Grooming",
+        "hinh": "assets/images/CSG005.jpg",
+        "goiDichVu": [
+            {
+                "image": "assets/images/CSG001.jpg",
+                "maGoi": "CSG001",
+                "tenGoi": "Gói Tắm làm sạch 8 bước",
+                "moTa": "Gói Tắm Làm Sạch 8 Bước mang đến quy trình chăm sóc toàn diện cho thú cưng tại cửa hàng. Với các bước tắm sạch sâu, massage, vệ sinh tai, nhổ lông tai, cắt móng, và xịt dưỡng lông, thú cưng sẽ được làm sạch từ trong ra ngoài, giúp lông mềm mượt và thơm tho. Đây là lựa chọn lý tưởng để giữ gìn vệ sinh và sức khỏe cho thú cưng của bạn.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, chải lông.",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "100000"
+            },
+            {
+                "image": "assets/images/CSG001.jpg",
+                "maGoi": "CSG002",
+                "tenGoi": "Gói Tắm làm sạch 8 bước",
+                "moTa": "Gói Tắm Làm Sạch 8 Bước mang đến quy trình chăm sóc toàn diện cho thú cưng tại cửa hàng. Với các bước tắm sạch sâu, massage, vệ sinh tai, nhổ lông tai, cắt móng, và xịt dưỡng lông, thú cưng sẽ được làm sạch từ trong ra ngoài, giúp lông mềm mượt và thơm tho. Đây là lựa chọn lý tưởng để giữ gìn vệ sinh và sức khỏe cho thú cưng của bạn.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, chải lông.",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "150000"
+            },
+            {
+                "image": "assets/images/CSG003.jpg",
+                "maGoi": "CSG003",
+                "tenGoi": "Gói cạo tắm 9 bước",
+                "moTa": "Gói Cạo Tắm 9 Bước cung cấp dịch vụ làm sạch và chăm sóc toàn diện cho thú cưng, kết hợp thêm bước cạo lông theo yêu cầu. Quy trình bao gồm vệ sinh tai, cắt và mài móng, vắt tuyến hôi, tắm massage, sấy khô, và xịt dưỡng lông, giúp thú cưng luôn gọn gàng, sạch sẽ và thoải mái. Đây là gói dịch vụ hoàn hảo để duy trì vẻ ngoài và sức khỏe lông da cho thú cưng của bạn.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Cạo theo yêu cầu",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, chải lông.",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "150000"
+            },
+            {
+                "image": "assets/images/CSG003.jpg",
+                "maGoi": "CSG004",
+                "tenGoi": "Gói cạo tắm 9 bước",
+                "moTa": "Gói Cạo Tắm 9 Bước cung cấp dịch vụ làm sạch và chăm sóc toàn diện cho thú cưng, kết hợp thêm bước cạo lông theo yêu cầu. Quy trình bao gồm vệ sinh tai, cắt và mài móng, vắt tuyến hôi, tắm massage, sấy khô, và xịt dưỡng lông, giúp thú cưng luôn gọn gàng, sạch sẽ và thoải mái. Đây là gói dịch vụ hoàn hảo để duy trì vẻ ngoài và sức khỏe lông da cho thú cưng của bạn.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Cạo theo yêu cầu",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, chải lông.",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "200000"
+            },
+            {
+                "image": "assets/images/CSG005.jpg",
+                "maGoi": "CSG005",
+                "tenGoi": "Gói cắt tỉa 10 bước",
+                "moTa": "Gói Cắt Tỉa 10 Bước mang đến trải nghiệm chăm sóc toàn diện, giúp thú cưng sạch sẽ và phong cách hơn. Từ vệ sinh, cắt tỉa móng đến tắm massage, đánh bông và tạo kiểu theo yêu cầu, gói dịch vụ này đảm bảo thú cưng của bạn luôn gọn gàng, thoải mái và nổi bật với bộ lông mềm mượt, thơm tho.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Chải & làm bông lông",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, đánh bông.",
+                    "Cắt tạo kiểu theo yêu cầu",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "250000"
+            },
+            {
+                "image": "assets/images/CSG005.jpg",
+                "maGoi": "CSG006",
+                "tenGoi": "Gói cắt tỉa 10 bước",
+                "moTa": "Gói Cắt Tỉa 10 Bước mang đến trải nghiệm chăm sóc toàn diện, giúp thú cưng sạch sẽ và phong cách hơn. Từ vệ sinh, cắt tỉa móng đến tắm massage, đánh bông và tạo kiểu theo yêu cầu, gói dịch vụ này đảm bảo thú cưng của bạn luôn gọn gàng, thoải mái và nổi bật với bộ lông mềm mượt, thơm tho.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Chải & làm bông lông",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, đánh bông.",
+                    "Cắt tạo kiểu theo yêu cầu",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "300000"
+            },
+            {
+                "image": "assets/images/MSG001.jpg",
+                "maGoi": "MSG001",
+                "tenGoi": "Gói Tắm làm sạch 8 bước",
+                "moTa": "Gói Tắm Làm Sạch 8 Bước mang đến quy trình chăm sóc toàn diện cho thú cưng tại cửa hàng. Với các bước tắm sạch sâu, massage, vệ sinh tai, nhổ lông tai, cắt móng, và xịt dưỡng lông, thú cưng sẽ được làm sạch từ trong ra ngoài, giúp lông mềm mượt và thơm tho. Đây là lựa chọn lý tưởng để giữ gìn vệ sinh và sức khỏe cho thú cưng của bạn.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, chải lông.",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "90000"
+            },
+            {
+                "image": "assets/images/MSG001.jpg",
+                "maGoi": "MSG002",
+                "tenGoi": "Gói tắm làm sạch 8 bước",
+                "moTa": "Gói Tắm Làm Sạch 8 Bước mang đến quy trình chăm sóc toàn diện cho thú cưng tại cửa hàng. Với các bước tắm sạch sâu, massage, vệ sinh tai, nhổ lông tai, cắt móng, và xịt dưỡng lông, thú cưng sẽ được làm sạch từ trong ra ngoài, giúp lông mềm mượt và thơm tho. Đây là lựa chọn lý tưởng để giữ gìn vệ sinh và sức khỏe cho thú cưng của bạn.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, chải lông.",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "140000"
+            },
+            {
+                "image": "assets/images/MSG003.jpg",
+                "maGoi": "MSG003",
+                "tenGoi": "Gói cạo tắm 9 bước",
+                "moTa": "Gói Cạo Tắm 9 Bước cung cấp dịch vụ làm sạch và chăm sóc toàn diện cho thú cưng, kết hợp thêm bước cạo lông theo yêu cầu. Quy trình bao gồm vệ sinh tai, cắt và mài móng, vắt tuyến hôi, tắm massage, sấy khô, và xịt dưỡng lông, giúp thú cưng luôn gọn gàng, sạch sẽ và thoải mái. Đây là gói dịch vụ hoàn hảo để duy trì vẻ ngoài và sức khỏe lông da cho thú cưng của bạn.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Cạo theo yêu cầu",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, chải lông.",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "140000"
+            },
+            {
+                "image": "assets/images/MSG003.jpg",
+                "maGoi": "MSG004",
+                "tenGoi": "Gói cạo tắm 9 bước",
+                "moTa": "Gói Cạo Tắm 9 Bước cung cấp dịch vụ làm sạch và chăm sóc toàn diện cho thú cưng, kết hợp thêm bước cạo lông theo yêu cầu. Quy trình bao gồm vệ sinh tai, cắt và mài móng, vắt tuyến hôi, tắm massage, sấy khô, và xịt dưỡng lông, giúp thú cưng luôn gọn gàng, sạch sẽ và thoải mái. Đây là gói dịch vụ hoàn hảo để duy trì vẻ ngoài và sức khỏe lông da cho thú cưng của bạn.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Cạo theo yêu cầu",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, chải lông.",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "190000"
+            },
+            {
+                "image": "assets/images/MSG005.jpg",
+                "maGoi": "MSG005",
+                "tenGoi": "Gói cắt tỉa 10 bước",
+                "moTa": "Gói Cắt Tỉa 10 Bước mang đến trải nghiệm chăm sóc toàn diện, giúp thú cưng sạch sẽ và phong cách hơn. Từ vệ sinh, cắt tỉa móng đến tắm massage, đánh bông và tạo kiểu theo yêu cầu, gói dịch vụ này đảm bảo thú cưng của bạn luôn gọn gàng, thoải mái và nổi bật với bộ lông mềm mượt, thơm tho.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Chải & làm bông lông",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, đánh bông.",
+                    "Cắt tạo kiểu theo yêu cầu",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "240000"
+            },
+            {
+                "image": "assets/images/MSG005.jpg",
+                "maGoi": "MSG006",
+                "tenGoi": "Gói cắt tỉa 10 bước",
+                "moTa": "Gói Cắt Tỉa 10 Bước mang đến trải nghiệm chăm sóc toàn diện, giúp thú cưng sạch sẽ và phong cách hơn. Từ vệ sinh, cắt tỉa móng đến tắm massage, đánh bông và tạo kiểu theo yêu cầu, gói dịch vụ này đảm bảo thú cưng của bạn luôn gọn gàng, thoải mái và nổi bật với bộ lông mềm mượt, thơm tho.",
+                "chiTiet": [
+                    "Đón tiếp, xin thông tin và tư vấn.",
+                    "Kiểm tra sức khỏe lâm sàng",
+                    "Nhổ lông tai, vệ sinh tai.",
+                    "Cạo bàn, cắt móng, mài móng.",
+                    "Chải & làm bông lông",
+                    "Vắt tuyến hôi.",
+                    "Tắm sạch sẽ & Massage.",
+                    "Sấy khô, vệ sinh tai lại, đánh bông.",
+                    "Cắt tạo kiểu theo yêu cầu",
+                    "Xịt nước hoa, dưỡng lông."
+                ],
+                "hinhThuc": "Tại nhà",
+                "gia": "290000"
+            }
+
+        ]
+    },
+    {
+        "maLinhVuc": "KS",
+        "linhVuc": "Khách sạn thú cưng",
+        "hinh": "assets/images/MKS001.jpg",
+        "goiDichVu": [
+            {
+                "image": "assets/images/CKS001.jpg",
+                "maGoi": "CKS001",
+                "tenGoi": "Khách sạn cho chó",
+                "moTa": "Dịch vụ lưu trú cho chó, tính giá theo ngày",
+                "chiTiet": [
+                    "Hệ thống lưu trú độc lập: Mỗi bé sẽ có một chuồng riêng, đảm bảo không gian riêng tư và thoải mái nhất.",
+                    "Thú cưng được ăn uống, vệ sinh sạch sẽ, chuồng và môi trường được khử khuẩn kỹ càng hàng ngày.",
+                    "Dịch vụ này chúng tôi chỉ nhận các bé cún, miu khỏe mạnh đã tiêm phòng đầy đủ vaccine phòng bệnh. Vì vậy, khi gửi các bé ở Tropicpet, bạn sẽ không phải lo lắng việc thú cưng của mình bị lây nhiễm bệnh từ các bạn thú cưng khác.",
+                    "Miễn phí gói tắm 8 bước trước khi về cho các bé có thời gian gửi khách sạn trên 10 ngày."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "90000"
+            },
+            {
+                "image": "assets/images/MKS001.jpg",
+                "maGoi": "MKS001",
+                "tenGoi": "Khách sạn cho mèo",
+                "moTa": "Dịch vụ lưu trú cho mèo, tính giá theo ngày",
+                "chiTiet": [
+                    "Hệ thống lưu trú độc lập: Mỗi bé sẽ có một chuồng riêng, đảm bảo không gian riêng tư và thoải mái nhất.",
+                    "Thú cưng được ăn uống, vệ sinh sạch sẽ, chuồng và môi trường được khử khuẩn kỹ càng hàng ngày.",
+                    "Dịch vụ này chúng tôi chỉ nhận các bé cún, miu khỏe mạnh đã tiêm phòng đầy đủ vaccine phòng bệnh. Vì vậy, khi gửi các bé ở Tropicpet, bạn sẽ không phải lo lắng việc thú cưng của mình bị lây nhiễm bệnh từ các bạn thú cưng khác.",
+                    "Miễn phí gói tắm 8 bước trước khi về cho các bé có thời gian gửi khách sạn trên 10 ngày."
+                ],
+                "hinhThuc": "Tại cửa hàng",
+                "gia": "70000"
+            }
+        ]
+    }
+]

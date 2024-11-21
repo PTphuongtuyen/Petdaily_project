@@ -1,0 +1,146 @@
+.header img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    display: block;
+    padding-top: 120px;
+  }
+  h3{
+    color: #2a327d;
+    text-align: center;
+    margin-left: 50px;
+}
+i{
+  color:gold
+}
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  
+  .filters select {
+    margin: 10px;
+  }
+  
+  .review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .review img {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  .spacing{
+    margin-left: 120px;
+  }
+  .display{
+    display: inline;
+  }
+  
+  .ratings {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .progress-bar {
+    flex-grow: 1;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+    margin-right: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #aaa;
+  }
+  
+  .percentage-label {
+    width: 50px;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .rating-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-section {
+    text-align: left;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  .average-rating {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .average-rating .star {
+    font-size: 36px;
+    color: gold;
+    margin-left: 5px;
+  }
+  
+  .total-reviews {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .right-section {
+    width: 50%;
+  }
+  
+  .rating-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .star-label {
+    width: 40px;
+    font-size: 16px;
+    color: black;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .progress-bar {
+    flex-grow: 1;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10px;
+    margin-right: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: gray;
+    transition: width 0.3s ease;
+  }
+  
+  .percentage-label {
+    width: 50px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+  }
+  

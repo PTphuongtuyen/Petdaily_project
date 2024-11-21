@@ -1,0 +1,58 @@
+<div><app-header></app-header></div>
+
+<div class="container">
+    <div class="goi-chi-tiet" *ngIf="chiTietGoi">
+        <div class="hinh">
+            <img [src]="chiTietGoi.image" alt="{{ chiTietGoi.tenGoi }}" />
+        </div>
+        <div class="noidung">
+            <h2>{{ chiTietGoi.tenGoi }}</h2>
+            <p>Hình thức: {{ chiTietGoi.hinhThuc }} | Mã: {{ chiTietGoi.maGoi }}</p>
+            <hr>
+            <h3>Giá: {{ chiTietGoi.gia | number: '1.0-0' }}</h3>
+            <p>{{ chiTietGoi.moTa }}</p>
+
+            <button [routerLink]="['/datLich']">
+                Đăng ký ngay
+            </button>
+            
+        </div>        
+    </div>
+
+    <div class="phanduoi">
+        <div class="chitiet">
+            <h3>Mô tả dịch vụ</h3>
+            <hr>
+            <ul>
+                <li *ngFor="let chiTiet of chiTietGoi.chiTiet">
+                  {{ chiTiet }}
+                </li>
+              </ul>
+    
+        </div>
+        <div class="goiy">
+            <h4>Gợi ý dịch vụ: </h4>
+            <div *ngFor="let goi of goiDichVuGoiY" class="goi-card" [routerLink]="['/dichVu', goi.maLinhVuc, goi.maGoi]">
+                
+                <div class="goiy-hinh">
+                    <img [src]="goi.image" alt="{{ goi.tenGoi }}" />
+                </div>
+                <div class="goiy-nd">
+                    <h5>{{ goi.tenGoi }}</h5>
+                    <p class="mota">{{ goi.moTa }}</p>
+                    <p class="gia">Giá: {{ goi.gia | number: '1.0-0' }}</p>
+                </div>               
+                
+              </div>
+        </div>
+
+
+    </div>
+
+      
+      
+
+</div>
+
+
+<div><app-footer></app-footer></div>

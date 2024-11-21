@@ -1,0 +1,124 @@
+<div>
+    <app-header></app-header>
+</div>
+
+<!-- nội dung trang -->
+
+
+    <div class="banner">
+        <img src="assets\my-images\banner_tchu.png" alt="banner">
+    </div>
+
+    <div class="content-section">
+        <h4 class="title">
+            BEST SELLER
+        </h4>
+        <hr class="undertitle">
+
+        <!-- <div class="content d-flex justify-content-between">
+            <div *ngFor="let g of goiDichVu" class="service-card">
+                <img [src]="g.image" [alt]="g.tenGoi" class="service-image">
+                <p class="service-name">{{ g.tenGoi }}</p>
+                
+              </div>
+        </div> -->
+
+        <div class="content">
+
+            <!-- <button class="arrow arrow-left" onclick="scrollLeft()">❮</button> -->
+
+            <div class="bestseller-list">
+                <div class="bestseller-item">
+                    <img src="assets/images/MCS001.jpg" alt="Khám và Điều Trị Bệnh">
+                    <p>Khám và Điều Trị Bệnh</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="assets/images/MCS005.jpg" alt="Tiêm phòng - Vaccine 4 bệnh">
+                    <p>Tiêm phòng - Vaccine 4 bệnh</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="assets/images/MKS001.jpg" alt="Khách sạn thú cưng">
+                    <p>Khách sạn thú cưng</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="assets/images/MSG001.jpg" alt="Gói tắm làm sạch 8 bước">
+                    <p>Gói Tắm làm sạch 8 bước</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="assets/images/MCS007.jpg" alt="Product 3">
+                    <p>Tiêm phòng - Vaccine dại</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="assets/images/MSG003.jpg" alt="Product 3">
+                    <p>Gói cạo tắm 9 bước</p>
+                </div>
+
+            <!-- <button class="arrow arrow-right" onclick="scrollRight()">❯</button> -->
+
+        </div>
+
+    </div>
+
+    <div class="content-section">
+        <h4 class="title">
+            DỊCH VỤ CỦA CHÚNG TÔI
+        </h4>
+        <hr class="undertitle">
+        <div class="content">
+            <div class="dvcct">
+                <a [routerLink]="['/dichVu', 'CS']">
+                    <img src="assets/my-images/tchu_dvcct1.png" alt="">
+                </a>
+                <p>CHĂM SÓC SỨC KHỎE</p> 
+            </div>
+            <div class="dvcct dvcct2">
+                <a [routerLink]="['/dichVu', 'SG']">
+                    <img src="assets/my-images/tchu_dvcct2.png" alt="">
+                </a>
+                <p>SPA & GROOMING</p>
+            </div>
+            <div class="dvcct">
+                <a [routerLink]="['/dichVu', 'KS']">
+                    <img src="assets/my-images/tchu_dvcct3.png" alt="">
+                </a>
+                <p>KHÁCH SẠN THÚ CƯNG</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h4 class="title">
+            ĐỐI TÁC ĐÁNG TIN CẬY
+        </h4>
+        <hr class="undertitle">
+
+        <div class="content">
+            <div class="dtcct">
+                <!-- <button class="arrow arrow-left" onclick="scrollLeft()">❮</button> -->
+
+                <div class="doitac" id="doitac">
+                    <!-- <img src="assets/my-images/tchu_logoDoiTac1.png" alt=""> -->
+                    <img src="assets/my-images/tchu_logoDoiTac5.png" alt="">
+                    <img src="assets/my-images/tchu_logoDoiTac7.png" alt="">
+                    <img src="assets/my-images/tchu_logoDoiTac2.png" alt="">
+                    <img src="assets/my-images/tchu_logoDoiTac4.png" alt="">
+                    <img src="assets/my-images/tchu_logoDoiTac6.png" alt="">
+                    <img src="assets/my-images/tchu_logoDoiTac3.png" alt="">
+                </div>
+
+                <!-- <button class="arrow arrow-right" onclick="scrollRight()">❯</button> -->
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+
+<!-- footer -->
+<div>
+    <app-footer></app-footer>
+</div>

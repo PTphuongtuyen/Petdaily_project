@@ -1,0 +1,243 @@
+body {
+  font-family: 'inter';
+}
+
+.footer {
+  position: relative;
+  background-color: #0B3D90;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+.coppyright {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.footer-container {
+  display: flex;
+  /* width: 90%; */
+  margin: auto;
+  padding: 30px 50px;
+  gap: 50px
+}
+
+.footer-section {
+  flex: 1 1 calc(33.33% - 10px);
+  gap: 10px;
+  font-size: 17pt;
+}
+
+.footer-section .ttin {
+  padding-left: 100px;
+}
+
+.footer-content {
+  text-align: justify;
+}
+
+.footer-title .logo {
+  width: 80px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.footer-title {
+  display: flex;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  padding: 20px 0;
+  height: 90px;
+  align-items: center;
+}
+
+.footer-title .logo {
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+}
+
+.footer-content a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-content img {
+  height: 25px;
+
+}
+
+.vector {
+  padding-right: 5px;
+  width: 35px;
+  height: 35px;
+}
+
+.vectornd {
+  padding-left: 5px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.social-icons img {
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  /* padding: 5px; */
+}
+
+/* 3 nút */
+
+.round-buttons {
+  position: fixed; /* Cố định vị trí của các nút */
+  right: 20px; /* Cách mép trái 10px */
+  bottom: 20px; /* Cách đáy trang 10px */
+  display: block; /* Hiển thị các nút theo hàng ngang */
+  z-index: 999; /* Đảm bảo các nút không bị che bởi các phần tử khác */
+}
+
+.round-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; /* Để các nút thành hình tròn */
+  border: none; /* Không có đường viền */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.round-button img {
+  width: 68px;
+}
+
+.phone {
+  background-color: #eb6464;
+}
+
+.bot {
+  background-color: #fb8c00;
+}
+
+.top {
+  background-color: #f1eff0;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  background-color: #87878766;
+}
+
+.popup-content {
+  background-color: #B9D2FA; /* Nền xanh nhạt */
+  padding: 20px 70px 60px;
+  border-radius: 8px;
+  width: 800px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #1a3a73; /* Màu xanh đậm */
+  margin-bottom: 10px;
+}
+
+.popup-content p {
+  font-size: 20px;
+  color: #1a3a73;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.popup-content hr {
+  border: none;
+  border-top: 1px solid #000000;
+  margin: 10px 0 20px;
+}
+
+.popup-content button.main {
+  display: block;
+  width: 50%;
+  width: max-content;
+  padding: 15px 100px;
+  margin: 30px auto;
+  background-color: #1a3a73; /* Màu xanh đậm cho nút */
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.popup-content button.main:hover {
+  background-color: #142b54; /* Màu tối hơn khi hover */
+}
+
+/* .popup-content .close-button {
+  background-color: #000000;
+  margin-top: 15px;
+}
+
+.popup-content .close-button:hover {
+  background-color: #666;
+} */
+
+.popup-content.chat-popup {
+  width: 400px; /* Độ rộng cho khung chat */
+  padding: 20px;
+  background-color: #f0f0f0; /* Nền sáng cho khung chat */
+}
+
+.popup-content.chat-popup h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #1a3a73; /* Màu xanh đậm */
+  margin-bottom: 10px;
+}
+
+.popup-content.chat-popup .chat-window {
+  height: 200px; /* Chiều cao cho cửa sổ chat */
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.popup-content.chat-popup .chat-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column; /* Chuyển sang cột dọc ở màn hình nhỏ */
+    text-align: center;
+
+  }
+
+  
+
+}

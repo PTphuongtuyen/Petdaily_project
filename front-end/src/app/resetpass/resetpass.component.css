@@ -1,0 +1,20 @@
+.box {
+    background-color: #f8f9fa; /* Màu nền */
+    border: 1px solid #ced4da; /* Đường viền */
+    border-radius: 10px; /* Bo tròn góc */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Bóng đổ */
+    max-width: 500px; /* Độ rộng tối đa */
+  }
+.color-text{
+    color: #0b3d90;
+}
+.haitrongmot {
+  display: inline-block;
+  margin-right: 10px;
+}
+.background{
+    background-color: #fff9db;
+}
+.btn-blue{
+    background-color:#0b3d90 ;
+}

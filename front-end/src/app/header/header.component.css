@@ -1,0 +1,162 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+@media (max-width: 800px) {
+  .menu-toggle {
+    display: block; 
+    font-size: 24px;
+    cursor: pointer;
+    color: #0B3D90;
+  }
+
+  .nav-buttons {
+    display: none; 
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+
+  .nav-item {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .nav-logo img {
+    width: 100px; /* Thu nhỏ logo */
+  }
+
+  .dropdown-content {
+    position: relative;
+    padding: 0;
+    box-shadow: none;
+    display: none;
+  }
+  .menu-toggle {
+    display: none;
+    font-size: 28px;
+    color: #0B3D90;
+    cursor: pointer;
+    position: absolute;
+    right: 140px;
+  }
+
+  .dropdown-content a {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .nav-item.dropdown.active .dropdown-content {
+    display: flex; 
+  }
+}
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 3px;
+}
+
+.nav-logo img {
+  width: 130px;
+  /* height: 100%; */
+}
+
+/* .nav-logo img:hover {
+  width: 130px;
+}   */
+
+.nav-buttons {
+  display: flex;
+  gap: 1px;
+  transition: background 0.5s;
+
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 38px 20px;
+  color: #0B3D90;
+  font-weight: 900;
+  font-size: 17pt;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-icon img {
+  padding: 5px 10px;
+  height: 50px;
+}
+
+.nav-icon img:hover {
+  height: 57px;
+}
+
+.nav-item:hover {
+  background-color: #0B3D90;
+  color: #ffffff;
+}
+
+/* Tạo dropdown cho mục "DỊCH VỤ" */
+.nav-item.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  min-width: 370px;
+  padding: 15px 0;
+  border-radius: 4px;
+}
+
+/* Hiển thị dropdown khi di chuột vào */
+.nav-item.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Định dạng các mục trong dropdown */
+.dropdown-content a {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #0B3D90;
+  text-decoration: none;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  transition: background 0.3s;
+}
+
+.dropdown-content a img {
+  width: 24px; /* Kích thước icon */
+  height: 24px;
+  margin-right: 10px; /* Khoảng cách giữa icon và text */
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: #0B3D90;
+  cursor: pointer;
+  position: absolute;
+  right: 140px;
+}

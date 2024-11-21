@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+  <a class="nav-logo" [routerLink]="['/trangChu']" routerLinkActive="router-link-active">
+    <img src="assets/my-images/logo.png" alt="Logo">
+  </a>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  <div class="nav-buttons ml-auto">
+    <a class="nav-item" [routerLink]="['/gioiThieu']" routerLinkActive="router-link-active">GIỚI THIỆU</a>
+
+    <!-- DỊCH VỤ -->
+    <div class="nav-item dropdown">
+      <a class="nav-item" [routerLink]="['/dichVu']" routerLinkActive="router-link-active">DỊCH VỤ</a>
+      <div class="dropdown-content">
+        <a [routerLink]="['/dichVu/CS']">
+          <img src="assets/my-images/header_icon1.png" alt=""> CHĂM SÓC SỨC KHỎE
+        </a>
+        <a [routerLink]="['/dichVu/SG']">
+          <img src="assets/my-images/header_icon2.png" alt=""> SPA-GROOMING
+        </a>
+        <a [routerLink]="['/dichVu/KS']">
+          <img src="assets/my-images/header_icon3.png" alt=""> KHÁCH SẠN THÚ CƯNG
+        </a>
+      </div>
+    </div>
+
+    <a class="nav-item" [routerLink]="['/khuyenMai']" routerLinkActive="router-link-active">KHUYẾN MÃI</a>
+    <a class="nav-item" [routerLink]="['/lienHe']" routerLinkActive="router-link-active">LIÊN HỆ</a>
+    <a class="nav-item" [routerLink]="['/tinTuc']" routerLinkActive="router-link-active">TIN TỨC</a>
+    <a class="nav-item" [routerLink]="['/danhGia']" routerLinkActive="router-link-active">ĐÁNH GIÁ</a>
+    <a class="nav-item" [routerLink]="['/datLich']" routerLinkActive="router-link-active">ĐẶT LỊCH</a>
+  </div>
+
+  <div>
+    <a class="nav-icon" [routerLink]="['/timKiem']" routerLinkActive="router-link-active">
+      <img src="assets/my-images/search.png" 
+      alt="Tìm kiếm">
+    </a>
+      <!--  -->
+      <a class="nav-icon" >
+        <img src="assets/my-images/person-circle.png" alt="Avatar" (click)="handleAvatarClick()" 
+      >
+      </a>
+  </div>
+</nav>

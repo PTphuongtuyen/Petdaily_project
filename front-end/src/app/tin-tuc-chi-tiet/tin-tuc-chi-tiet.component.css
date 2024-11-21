@@ -1,0 +1,96 @@
+body {
+    font-family: 'inter';
+}
+
+.banner img{
+    padding-top: 120px;
+    width: 100%;
+}
+
+.container {
+    padding: 0;
+    margin: 40px 60px;
+}
+
+.phantren {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title img {
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.title h4 {
+    color: #0B3D90;
+    padding: 15px;
+    font-size: 21pt;
+    font-weight: 700;
+}
+
+.lienquan {
+    background-color: #FFF9DB;
+    width: 500px;
+    height: min-content;
+    padding-bottom: 20px;
+    height: 450px;
+    border: 1px solid #D9D9D9;
+
+}
+
+.lienquan h4 {
+    color: #0B3D90;
+    font-weight: 700;
+    text-align: center;
+    padding: 35px 0 15px;
+    
+}
+
+.lienquan img {
+    width: 200px;
+    border-radius: 50%;
+    padding: 0 15px;
+
+}
+
+.lienquan a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.lq-chu h5 {
+    color:#0B3D90;
+}
+
+p.ngay {
+    color: #000;
+    font-style: italic;
+}
+
+.noidung {
+    background: rgba(255, 249, 219, 0.41);
+    margin-top: 20px;
+    padding: 50px 45px 45px 50px;
+    color: #0B3D90;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+ .noidung h5 {
+    font-size: 22pt;
+    padding: 5px 0;
+    font-weight: 700;
+ }
+
+ .noidung p {
+    font-size: 20pt;
+    line-height: 2.5;
+    text-align: justify;
+ }

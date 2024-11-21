@@ -1,0 +1,34 @@
+<div>
+    <app-header></app-header>
+</div>
+
+<!-- nội dung trang -->
+    <div class="banner">
+        <img src="assets/my-images/banner_tchu.png" alt="banner">
+    </div>
+
+    <div class="noidungtrang">
+        <div class="tieude">
+            <h3>TẤT CẢ BÀI VIẾT</h3>
+        </div>
+        <div class="tatcabai">
+            
+            <div class="motbai {{onActive(t) ? 'item-active' : ''}}" *ngFor="let t of dsTinTuc" (click)="onItemClick(t)">
+                <a>
+                    <img src="{{t.hinh}}" alt="">
+                    <p class="tieudebai">{{t.tieuDeChinh}}</p>
+                    <p class="ngay">Ngày: {{t.ngay}}</p>
+                </a>
+                
+            </div>
+        </div>
+
+        
+        
+    </div>
+
+
+<div>
+    <app-footer></app-footer>
+</div>
+

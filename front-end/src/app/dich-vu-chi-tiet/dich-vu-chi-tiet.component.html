@@ -1,0 +1,47 @@
+<div>
+    <app-header></app-header>
+</div>
+
+<!-- nội dung -->
+    <div class="banner">
+        <img src="assets/my-images/dvctiet_banner.png" alt="">
+    </div>
+
+    <div class="all">
+    <!-- Bộ lọc -->
+    <div class="boloc">
+        <h4>Bộ lọc</h4>
+        <h5>Mức giá</h5>
+        <select [(ngModel)]="selectedPrice" (change)="filterByPrice()">
+        <option [value]="null">Tất cả</option>
+        <option [value]="100000">100.000</option>
+        <option [value]="150000">150.000</option>
+        <option [value]="200000">200.000</option>
+        <option [value]="250000">250.000</option>
+        </select>
+    </div>
+    
+    <!-- Danh mục -->
+    <div class="danhmuc">
+        <div *ngFor="let goi of filteredGoi" class="goi-card" (click)="goToChiTietGoi(goi.maGoi)">
+        <img src="{{ goi.image }}" alt="Gói dịch vụ">
+        <h3>{{ goi.tenGoi }}</h3>
+        <p class="tag">{{ goi.hinhThuc }}</p>
+
+        <p>Giá: {{ goi.gia | number: '1.0-0' }}</p>
+        <a [routerLink]="['/datLich']">Đặt lịch ngay</a>
+        </div>
+    </div>
+    </div>
+    
+      
+
+    
+        
+     
+ 
+
+
+<div>
+    <app-footer></app-footer>
+</div>

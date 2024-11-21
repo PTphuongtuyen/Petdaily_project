@@ -1,0 +1,28 @@
+<div>
+    <app-header></app-header>
+</div>
+<br><br><br><br>
+<div class=" background">
+    <div class="container d-flex p-5 justify-content-center align-items-center ">
+        <form class="col-5 m-auto rounded p-4 bg-light ">
+            <div class="text-center color-text">
+                <h4>QUÊN MẬT KHẨU</h4>
+            </div>
+            <div class="mb-3 ">
+            <input type="email" class="form-control border border-black shadow-none" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email:"><br>
+            <button class="btn btn-blue text-white" type="submit">Gửi mã</button>
+            </div>
+            <div class="mb-3">
+            <input type="text" class="form-control border border-black shadow-none" id="exampleInputPassword1" placeholder="Nhập mã xác nhận:"> <br>
+            <div id="emailHelp" class="form-text haitrongmot">Chưa nhận được mã?</div> <a class="btn btn-blue text-white haitrongmot" type="submit">Gửi lại mã</a>
+
+            </div>
+            <button type="submit" class="btn btn-blue text-white col-12" (click)="toResetpass()">Tiếp tục</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <app-footer></app-footer>
+</div>
+

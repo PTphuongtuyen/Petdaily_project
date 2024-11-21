@@ -1,0 +1,33 @@
+<div>
+  <app-header></app-header>
+</div>
+<!-- Nội dung trang đăng ký -->
+<div class="register-container vh-100 d-flex justify-content-center align-items-center background">
+  <form (ngSubmit)="onSubmit()" class="col-5 m-auto rounded p-4 bg-light" >
+    <div class="text-center color-text">
+      <h2>Đăng ký tài khoản</h2>
+      <p>Đăng ký để trải nghiệm dịch vụ của Petdaily</p>
+    </div>
+  
+  
+    <div>
+      <input type="text" id="hoTen" name="hoTen" class="form-control border-black" placeholder="Họ và Tên*:" required/>
+      <br>
+      <input type="email" id="email" name="email" class="form-control border border-black shadow-none" placeholder="Email*:" required/>
+      <br>
+      <input type="text" id="sdt" name="sdt" class="form-control border border-black shadow-none" placeholder="Số điện thoại*:" required/>
+      <br>
+      <input type="password" id="password1"  name="password" class="form-control border border-black shadow-none" placeholder="Mật khẩu*:" required/>
+      <p ><i>Mật khẩu tối thiểu từ 6-12 ký tự bao gồm 1 ký tự in hoa và 1 ký tự đặc biệt</i></p>
+      
+      <input type="password" id="password2"  name="password" class="form-control border border-black shadow-none" placeholder="Nhập lại mật khẩu*:" required/>
+    </div>
+    <br>
+    <br>
+    <button type="submit">Đăng ký</button>
+  </form>
+</div>
+
+<div>
+  <app-footer></app-footer>
+</div>

@@ -1,0 +1,199 @@
+body {
+    font-family: 'Inter';
+}
+
+.banner img{
+    width: 100%;
+    margin: 0;
+    padding: 0;   
+    padding-top: 120px;
+
+}
+
+.content {
+    border: 1px solid black;
+   
+    padding: 35px;
+    margin: 30px 70px 40px;
+    
+}
+
+.content .title {
+    color: #0B3D90;
+    font-weight: 700;
+    font-size: 24pt;
+}
+
+.content .line {
+    background-color: #F7BF8C;
+    border: 1px solid #F7BF8C;
+    margin: 20px 0;
+}
+
+.content p {
+    font-size: 29px;    
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+/* 3 loại dịch vụ  */
+
+.linhvuc-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;    
+}
+
+.linhvuc-card {
+    flex: 1 1 calc(33.33% - 40px); /* Chia đều 3 phần tử, trừ đi khoảng cách */
+    display: flex;
+    flex-direction: column;        /* Căn theo chiều dọc */
+    align-items: center;           /* Căn giữa nội dung */
+    text-align: center;            /* Căn giữa chữ */
+    padding: 5px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #FFF9DB;
+    border: 1px solid rgba(0, 0, 0, 0.20);    
+}
+
+.linhvuc-card img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.linhvuc-title {
+    color: #0B3D90;
+    font-weight: 700;
+    font-size: 23pt;
+    text-transform: uppercase;
+    padding-top: 15px;
+    
+}
+
+.linhvuc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+}
+
+.linhvuc-link:hover {
+    cursor: pointer;
+    color: #071d40;
+}
+
+.linhvuc-link img.icon {
+    width: 45px;
+    height: 100%;  
+}
+
+.linhvuc-link span {
+    color: #0B3D90;
+    font-weight: 700;
+    font-size: 23pt;
+    padding-left: 10px;
+    
+}
+
+
+/* tất cả gói dịch vụ */
+
+.goi-container {
+    display: flex;   
+    overflow-x: auto;    
+    white-space: nowrap;   
+    gap: 30px;          
+    margin-bottom: 40px;   
+    scrollbar-width: none; /* Firefox */
+ 
+}
+
+.goi-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari và Edge */
+}
+
+.goi-card {
+    flex: 1 1 calc(50% - 15px);  
+    box-sizing: border-box;   
+    max-width: calc(50% - 15px); 
+    background-color: #FFF9DB;
+}
+
+.goi-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.goi-title {
+    background-color: #0B3D90;
+    color: #fff;
+    padding: 10px 8px 7px;
+    position: relative;   /* Đặt vị trí tương đối */
+    top: -23px;           /* Đẩy lên trên ...px */
+    z-index: 1;  /* Đảm bảo hiển thị đè lên nội dung phía trên */
+    width: fit-content;
+}
+
+p.goi-mota {
+    overflow: hidden; /* Ẩn nội dung vượt quá */
+    text-overflow: ellipsis; /* Thêm dấu ba chấm */
+    word-wrap: break-word; /* Ngắt từ để xuống dòng */
+    margin: 0 15px;
+    padding: 0;
+}
+
+
+
+/* tất cả hình */
+.hinh-container {
+    display: flex;   
+    overflow-x: auto;    
+    white-space: nowrap;   
+    gap: 5px;          
+    margin-bottom: 40px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; /* Firefox */
+
+}
+
+.hinh {
+    flex: 0 0 100%; /* Mỗi phần tử chiếm 100% chiều ngang */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start; /* Căn chỉnh khi cuộn */
+}
+
+.hinh img {
+    width: 100%;
+    height: 600px;
+    padding: 0 7px;
+    object-fit: cover;
+}
+
+/* 3 nút */
+.nut-container {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin: 20px auto;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.nut-container button {
+    background-color: #0B3D90;
+    color: #fff;
+    font-size: 17pt;
+    padding: 18px 3px;
+    width: 300px;
+    font-weight: 700;
+    border: 0;
+}
+

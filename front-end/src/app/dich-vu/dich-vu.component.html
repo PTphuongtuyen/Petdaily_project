@@ -1,0 +1,94 @@
+<div>
+    <app-header></app-header>
+</div>
+
+<!-- nội dung -->
+    <div class="banner">
+        <img src="assets/my-images/dvu_banner.png" alt="">
+    </div>
+
+    <div class="content">
+        
+        <!-- 3 loại dịch vụ -->
+         <div>
+            <h4 class="title">
+                DỊCH VỤ THÚ CƯNG TOÀN DIỆN
+            </h4>
+            <hr class="line">
+            <p>
+                PetDaily cung cấp các giải pháp và dịch vụ chăm sóc thú cưng toàn diện, chuyên nghiệp, uy tín, chất lượng hàng đầu. Là địa chỉ tin cậy đồng hành cùng bạn trong hành trình yêu thương và chăm sóc các bé thú cưng của mình.
+            </p>
+    
+            <div class="linhvuc-container">
+                <div class="linhvuc-card" *ngFor="let d of danhSachDichVu">
+                    <img src="{{ d.hinh }}" alt="">
+                    <h4 class="linhvuc-title">
+                        {{ d.linhVuc }}
+                    </h4>
+                    <h4 class="linhvuc-link" [routerLink]="['/dichVu', d.maLinhVuc]">
+                        <img class="icon" src="assets/my-images/dvu_chancho.png" alt="">
+                        <span>
+                            Xem chi tiết
+                        </span>
+                    </h4>
+                </div>
+         </div>         
+        
+
+        <!-- tất cả gói dịch vụ -->
+         <div>
+            <h4 class="title">
+                DỊCH VỤ CHÚNG TÔI CUNG CẤP
+            </h4>
+            <hr class="line">
+    
+            <div class="goi-container">
+                <!-- Lặp qua từng loại dịch vụ -->
+                <ng-container *ngFor="let d of danhSachDichVu">
+                    <!-- Lặp qua từng gói dịch vụ trong loại dịch vụ đó -->
+                    <div class="goi-card" *ngFor="let goi of d.goiDichVu">
+                        <img src="{{goi.image}}" alt="">
+                        <h4 class="goi-title">{{goi.tenGoi}}</h4>
+                        <p class="goi-mota">{{goi.moTa}}</p>
+                    </div>
+    
+                </ng-container>
+            </div>
+         </div>
+        
+        <!-- Hình ảnh -->
+         <div>
+            <h4 class="title">
+                HÌNH ẢNH DỊCH VỤ
+            </h4>
+            <hr class="line">
+    
+    
+            <!-- 3 nút -->
+            <div class="nut-container">
+                <button>CHĂM SÓC SỨC KHỎE</button>
+                <button>SPA-GROOMING</button>
+                <button>KHÁCH SẠN THÚ CƯNG</button>
+            </div>
+                
+            <!-- hình ảnh tương ứng nút -->
+            <div class="hinh-container">
+                <ng-container *ngFor="let d of danhSachDichVu">
+                    <div class="hinh" *ngFor="let goi of d.goiDichVu">
+                        <img src="{{goi.image}}" alt="">
+                    </div>
+                </ng-container>
+            </div>
+            
+        </div>
+
+        
+
+    </div>
+   
+</div>
+
+<div>
+    <app-footer></app-footer>
+</div>
+

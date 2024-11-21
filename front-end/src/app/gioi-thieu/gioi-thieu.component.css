@@ -1,0 +1,279 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.header img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  display: block;
+  padding-top: 120px;
+}
+
+.intro {
+  background-color: #f2f9ff;
+  padding: 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-family: 'Poltawski Nowy', serif;
+  font-size: 2rem;
+  color: #2a327d;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.business-philosophy {
+  width: 80%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+.title-section {
+  padding: 20px;
+  text-align: left ;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  justify-content: left;
+}
+
+.title-section img {
+  width: 50px;
+  margin-right: 10px;
+}
+.content-section {
+  display: flex;
+}
+.text-section {
+  background-color: #FFF9DB;
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  text-align: center;
+}
+
+.text-section p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0;
+  height: 100px;
+}
+
+.image-section {
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.image-section img {
+  width: 100%; 
+  height: 280px;
+  margin: 0 auto;
+  display: block; 
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  width: 80%; 
+  margin: 40px auto;
+  gap: 300px;
+}
+
+.card {
+  text-align: center;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  gap: 10px; 
+  background: none; 
+  border: none; 
+  box-shadow: none; 
+}
+
+.card img {
+  width: 50px; 
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.2; 
+}
+
+.oval {
+  background-color: #FFF9DB;
+  padding: 40px; 
+  width: 500px; 
+  height: 300px; 
+  border-radius: 50%; 
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px; 
+  line-height: 1.6;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: none;
+}
+
+.oval p {
+  margin: 0;
+}
+/* Đội ngũ nhân viến */
+.team-section {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  background-color: #e5e5e5;
+  padding: 20px 0;
+
+}
+
+.team-section h2 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around; 
+  gap: 20px; 
+  overflow: hidden;
+}
+
+
+.vet-card {
+  width: 400px; 
+  text-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.vet-card .image-container {
+  width: 300px; 
+  height: 300px; 
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.vet-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.vet-info {
+  width: 100%;
+  padding: 15px;
+}
+
+.vet-info h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vet-info p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.vet-info .specialty {
+  font-weight: bold;
+  color: #555;
+}
+
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.nav-button.left {
+  left: 10px;
+}
+
+.nav-button.right {
+  right: 10px;
+}
+
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #007bff;
+}

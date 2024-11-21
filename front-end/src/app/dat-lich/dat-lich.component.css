@@ -1,0 +1,218 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+
+hr {
+    color: #0B3D90;
+}
+
+
+.form-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #B9D2FA;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 150px;
+}
+
+.form{
+    width: 90%;
+    margin: 0 auto; /* Căn giữa form trong trang */
+    padding: 20px; /* Thêm một chút padding để form không bị dính vào viền */
+    background-color:#B9D2FA; /* Màu nền nhẹ cho form */
+    border-radius: 10px; /* Bo góc form */
+}
+
+.form-section h2 {
+    color: #003366;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form{
+    max-width: 600px;
+    text-align: center;
+    
+}
+
+.form-section p {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.indented {
+    margin-left: 20px; /* Điều chỉnh giá trị này nếu bạn muốn thụt vào thêm hoặc bớt */
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea,
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+input[type="submit"] {
+    background-color: #0B3D90;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.required {
+    color: red;
+}
+
+.invalid-field {
+    border: 2px solid red;
+}
+
+
+/* CSS cho các thông báo lỗi */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Viền đỏ cho các trường không hợp lệ */
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched {
+    border: 2px solid red; /* Viền đỏ khi input không hợp lệ */
+}
+
+/* Viền xanh cho các trường hợp hợp lệ */
+input.ng-valid.ng-touched,
+select.ng-valid.ng-touched {
+    border: 2px solid  #0B3D90; /* Viền xanh khi input hợp lệ */
+}
+
+
+/* Khi form được reset, mọi trường đều trở về trạng thái ban đầu */
+form.ng-pristine input.ng-touched,
+form.ng-pristine select.ng-touched {
+    border: 1px solid #ccc; /* Đặt lại viền khi form chưa thay đổi */
+}
+
+
+/* Định dạng cho modal */
+.modal {
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    align-items: center; /* Canh giữa theo chiều dọc */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Nền mờ */
+    padding-top: 60px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Định dạng cho nội dung modal */
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Định dạng cho nút đóng modal */
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* Định dạng cho tiêu đề modal */
+.modal-content h5 {
+    color: #0B3D90;
+    margin-bottom: 10px;
+}
+
+/* Định dạng cho nội dung thông báo */
+.modal-content p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho nút xác nhận trong modal */
+.modal-content button {
+    background-color: #0B3D90;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
+
+/* Định dạng cho responsive modal */
+@media screen and (max-width: 600px) {
+    .modal-content {
+        width: 80%;
+        max-width: 300px;
+    }
+}
+

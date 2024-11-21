@@ -1,0 +1,100 @@
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3 class="footer-title logo">
+                <img [routerLink]="['/trangChu']" routerLinkActive="router-link-active" class="logo" src="assets/my-images/logo.png" alt="">
+            </h3>
+            <p class="footer-content">
+                PetDaiLy - là cửa hàng dành cho thú cưng, chuyên cung cấp các dịch vụ chăm sóc toàn diện, chất lượng cao dành cho thú cưng. Với mong muốn mang lại cuộc sống tốt đẹp và trải nghiệm tuyệt vời cho các bé thú cưng.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="assets/my-images/lhe_fb.png" alt="Facebook">
+                </a>
+                <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
+                <img src="assets/my-images/lhe_tiktok.png" alt="TikTok">
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="assets/my-images/lhe_ig.png" alt="Instagram">
+                </a>
+            </div>
+
+        </div>
+    
+        <div class="footer-section">
+            <div class="ttin">
+                <h3 class="footer-title">THÔNG TIN</h3>
+                <div class="footer-content">
+                    <p><a [routerLink]="['/gioiThieu']" routerLinkActive="router-link-active">Giới thiệu</a></p>
+                    <p><a [routerLink]="['/dichVu']" routerLinkActive="router-link-active">Dịch vụ</a></p>
+                    <p><a [routerLink]="['/khuyenMai']" routerLinkActive="router-link-active">Khuyến mãi</a></p>
+                    <p><a [routerLink]="['/tinTuc']" routerLinkActive="router-link-active">Tin tức</a></p>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="footer-section">
+            <h3 class="footer-title">THÔNG TIN LIÊN HỆ</h3>
+            <p class="footer-content">
+                <img class="vector" src="assets/my-images/vector1.png" alt="">
+                <span class="vectornd">0378701003 - 0378701004</span> 
+                <br><br>
+                <img class="vector" src="assets/my-images/vector2.png" alt=""> 
+                <span class="vectornd">96 Bạch Đằng, P.24, Q. Bình Thạnh, TP. HCM.</span>
+                <br><br>
+                <img class="vector" src="assets/my-images/vector3.png" alt="">
+                <span class="vectornd">petdaily&#64;gmail.com </span>
+                <br><br>
+                <img class="vector" src="assets/my-images/vector4.png" alt=""> 
+                <span class="vectornd">http:/www.petdaily</span>
+            </p>
+            
+        </div>
+    </div>
+    <hr style="border: 2px #ffffff solid;">
+    <p class="coppyright">Coppyright&copy;2024 by PetDaiLy. All rights reserved.</p>
+
+    <!-- Ba nút tròn -->
+    <div class="round-buttons">
+        <button class="round-button phone" (click)="openPhonePopup()">
+            <img src="assets/my-images/f_phone.png" alt="">
+        </button>
+        <button class="round-button bot" (click)="openChatPopup()">
+            <img src="assets/my-images/f_bot.png" alt="">
+        </button>
+        <button class="round-button top" (click)="scrollToTop()">
+            <img src="assets/my-images/f_top.png" alt="">
+        </button>
+    </div>
+
+    <!-- Popup for phone button -->
+    <div class="popup" *ngIf="isPhonePopupVisible" (click)="closePhonePopup()">
+        <div class="popup-content" (click)="$event.stopPropagation()">
+            <h2>LIÊN HỆ HOTLINE</h2>
+            <p>Quý khách chọn để kết nối tới số hotline của cửa hàng PetDaily</p>
+            <hr>
+            <button class="main">PetDaiLy <br> 0378701003</button>
+            <button class="main">PetDaiLy <br> 0378701004</button>
+        </div>
+    </div>
+
+    <!-- Popup for bot button -->
+    <div class="popup" *ngIf="isChatPopupVisible" (click)="closeChatPopup()">
+        <div class="popup-content chat-popup" (click)="$event.stopPropagation()">
+            <h2>Chat Bot</h2>
+            <p>Bạn cần hỗ trợ gì? Hãy bắt đầu cuộc trò chuyện!</p>
+            <div class="chat-window">
+                <!-- Nội dung cuộc trò chuyện sẽ hiển thị ở đây -->
+            </div>
+            <input type="text" placeholder="Nhập tin nhắn..." class="chat-input">
+        </div>
+    </div>
+
+
+    
+  </footer>
+
+  
+  

@@ -1,0 +1,96 @@
+
+
+body {
+    font-family: 'inter';
+}
+
+.banner {
+    padding-top: 120px;
+
+
+}
+
+.banner img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.all {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between; /* Đẩy các phần tử ra hai bên */
+    align-items: flex-start; /* Căn các phần tử theo chiều dọc */
+    padding: 30px;
+}
+
+.danhmuc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    width: 83%;
+    justify-content: flex-end;
+    padding: 30px;
+    background: #FFF9DB;
+    border-radius: 25px;
+}
+
+.boloc h4 {
+    color: #0B3D90;
+}
+
+.boloc select {
+    border: 0;
+    font-size: 17pt;
+}
+
+.goi-card {
+    flex: 1 1 calc(33.33% - 50px); /* Chia đều thành 3 cột */
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    background: #B9D2FA;
+}
+
+.goi-card img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 25px;
+
+
+}
+
+.goi-card h3 {
+    color: #0B3D90;
+    font-size: 19pt;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+.goi-card p {
+    color: rgba(11, 61, 144, 0.80);
+    font-size: 20pt;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.goi-card a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20pt;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.tag {
+    font-style: italic;
+    font-family: 400;
+}

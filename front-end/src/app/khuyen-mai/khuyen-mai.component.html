@@ -1,0 +1,14 @@
+<div>
+    <app-header></app-header>
+</div>
+
+<!-- nội dung -->
+<div class="container">
+    <div *ngFor="let banner of banners">
+      <img [src]="banner.src" [alt]="banner.alt" class="banner">
+    </div>
+  </div>
+  
+<div>
+    <app-footer></app-footer>
+</div>

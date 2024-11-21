@@ -1,0 +1,97 @@
+<!-- Wrapper -->
+<div>
+    <app-header></app-header>
+</div>
+
+<!-- Header Section -->
+<div class="header">
+    <img src="assets/my-images/gthieu_banner.png" alt="Pet Image">
+</div>
+
+<!-- Introduction Section -->
+<div class="intro">
+    <h2>Về PetDaily</h2>
+    <p>
+        Pet Daily cung cấp các giải pháp và dịch vụ chăm sóc thú cưng toàn diện, chuyên nghiệp, uy tín, chất lượng hàng đầu Thành phố Hồ Chí Minh. Là địa chỉ tin cậy đồng hành cùng bạn trong hành trình yêu thương và chăm sóc các bé thú cưng của mình.
+    </p>
+</div>
+
+<!-- Business Philosophy Section -->
+<div class="business-philosophy">
+    <div class="title-section">
+        <img src="assets/my-images/gthieu_iconfootcat.png" alt="Icon">
+        TRIẾT LÍ KINH DOANH
+    </div>
+
+    <div class="content-section">
+        <div class="text-section">
+            <p>
+                Cung cấp dịch vụ chất lượng cao, đảm bảo sự hài lòng của khách hàng và sức khỏe tốt nhất cho thú cưng. Pet Daily cam kết tôn trọng và yêu thương động vật, đồng thời tạo ra một môi trường làm việc tích cực cho nhân viên.
+            </p>
+        </div>
+        <div class="image-section">
+            <img src="assets/my-images/gthieu_trietly.png" alt="">
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Sứ mệnh và tầm nhìn -->
+<div class="container">
+    <div class="card">
+        <img src="assets/my-images/gthieu_iconfootcat.png" alt="Icon">
+        <h3>SỨ MỆNH</h3>
+        <div class="oval">
+            <p>
+                Cung cấp dịch vụ chất lượng.<br>
+                Xây dựng niềm tin với khách hàng.<br>
+                Đẩy mạnh giáo dục cộng đồng.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="assets/my-images/gthieu_iconfootcat.png" alt="Icon">
+        <h3>TẦM NHÌN</h3>
+        <div class="oval">
+            <p>
+                Mở rộng quy mô dịch vụ, hợp tác với các tổ chức quốc tế để nâng cao chất lượng dịch vụ và đào tạo nhân viên.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Đội ngũ nhân viên -->
+<div class="team-section">
+    <h2>ĐỘI NGŨ NHÂN VIÊN</h2>
+    <button class="nav-button left" (click)="showPrevious()">&#8249;</button>
+    
+    <div class="team-container">
+        <!-- Display team members with pagination -->
+        <div *ngFor="let vet of visibleVeterinarians" class="vet-card">
+            <div class="image-container">
+                <img [src]="'assets/images/' + vet.hinhAnh" [alt]="vet.hoTen">
+            </div>
+            <div class="vet-info">
+                <h3>{{ vet.hoTen }}</h3>
+                <p class="specialty">{{ vet.chuyenMon }}</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="nav-button right" (click)="showNext()">&#8250;</button>
+
+    <!-- Pagination Indicators -->
+    <div class="indicators" >
+        <div *ngFor="let indicator of indicators; let i = index" 
+             class="indicator" 
+             [ngClass]="{'active': i === currentPage}" 
+             (click)="goToPage(i)">
+        </div>
+    </div>
+</div>
+
+<div>
+    <app-footer></app-footer>
+</div>

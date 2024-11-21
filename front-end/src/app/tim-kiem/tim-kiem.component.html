@@ -1,0 +1,92 @@
+<div>
+  <app-header></app-header>
+</div>
+
+<div class="search-section">
+  <h6>TÌM KIẾM</h6>
+  <div class="search-bar">
+    <img src="assets/my-images/search.png" alt="Search Icon" class="icon icon-search" />
+    <div class="search-input-container">
+      <input
+        type="text"
+        placeholder="Nhập từ khóa....."
+        [formControl]="searchTerm"
+        class="search-input"
+      />
+    </div>
+    <input type="file" id="fileInput" (change)="onFileSelected($event)" accept="image/*" style="display: none;" />
+
+    <label for="fileInput">
+      <img src="assets/my-images/tk_camera.png" alt="Camera Icon" class="icon icon-camera" style="cursor: pointer;" />
+    </label>
+    <button class="search-button" (click)="performSearch()">Tìm kiếm</button>
+  </div>
+</div>
+
+<div class="search-results" *ngIf="showResults">
+  <h5 *ngIf="filteredDichVu.length > 0">Kết Quả Dịch Vụ</h5>
+  <div class="goi-container">
+    <ng-container *ngFor="let d of filteredDichVu">
+      <div class="goi-card" *ngFor="let goi of d.goiDichVu">
+        <img [src]="goi.image" [alt]="goi.tenGoi">
+        <h4 class="goi-title">{{ goi.tenGoi }}</h4>
+        <p class="goi-mota">{{goi.moTa}}</p>
+      </div>
+    </ng-container>
+  </div>
+
+  <h5 *ngIf="filteredTinTuc.length > 0">Kết Quả Tin Tức</h5>
+  <div class="tatcabai">
+    <div
+      class="motbai {{ onActive(t) ? 'item-active' : '' }}"
+      *ngFor="let t of filteredTinTuc"
+      (click)="onItemClick(t)"
+    >
+      <a>
+        <img [src]="t.hinh" [alt]="t.tieuDeChinh" />
+        <p class="tieudebai">{{ t.tieuDeChinh }}</p>
+        <p class="ngay">Ngày: {{ t.ngay }}</p>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="content-section">
+  <h6 class="title">
+      BEST SELLER
+  </h6>
+  <hr class="undertitle">
+  <div class="content">
+      <div class="bestseller-list">
+          <div class="bestseller-item">
+              <img src="assets/images/MCS001.jpg" alt="Khám và Điều Trị Bệnh">
+              <p>Khám và Điều Trị Bệnh</p>
+          </div>
+          <div class="bestseller-item">
+              <img src="assets/images/MCS005.jpg" alt="Tiêm phòng - Vaccine 4 bệnh">
+              <p>Tiêm phòng - Vaccine 4 bệnh</p>
+          </div>
+          <div class="bestseller-item">
+              <img src="assets/images/MKS001.jpg" alt="Khách sạn thú cưng">
+              <p>Khách sạn thú cưng</p>
+          </div>
+          <div class="bestseller-item">
+              <img src="assets/images/MSG001.jpg" alt="Gói tắm làm sạch 8 bước">
+              <p>Gói Tắm làm sạch 8 bước</p>
+          </div>
+          <div class="bestseller-item">
+              <img src="assets/images/MCS007.jpg" alt="Product 3">
+              <p>Tiêm phòng - Vaccine dại</p>
+          </div>
+          <div class="bestseller-item">
+              <img src="assets/images/MSG003.jpg" alt="Product 3">
+              <p>Gói cạo tắm 9 bước</p>
+          </div>
+  </div>
+</div>
+
+
+<div>
+  <app-footer></app-footer>
+</div>

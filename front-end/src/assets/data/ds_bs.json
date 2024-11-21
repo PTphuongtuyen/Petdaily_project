@@ -1,0 +1,163 @@
+[
+  {
+    "ID_BacSi": "BS001",
+    "hinh": "assets/images/BS001.png",
+    "hoTen": "Nguyễn Nhất An Khang",
+    "ngaySinh": "1990-04-15",
+    "gioiTinh": "Nam",
+    "soDienThoai": "0901234567",
+    "email": "khangnna.petdaily@gmail.com",
+    "chuyenMon": "Phẫu thuật",
+    "hocVan":{
+      "hocVi": "Tiến sĩ",
+      "daiHoc": "Đại học Nông Lâm TP.HCM",
+      "namTotNghiep":2012
+    },
+    "kinhNghiem": 12,
+    "luong": 30000000,
+    "ngayVaoLam": "2015-06-10",
+    "trangThai": "Đang làm việc",
+    "hinhAnh": "BS001.png"
+  },
+  {
+    "ID_BacSi": "BS002",
+    "hinh": "assets/images/BS002.png",
+    "hoTen": "Nguyễn Thị Ly",
+    "ngaySinh": "1996-08-25",
+    "gioiTinh": "Nữ",
+    "soDienThoai": "0912345678",
+    "email": "lynt.petdaily@gmail.com",
+    "chuyenMon": "Nội khoa - Ngoại khoa",
+    "hocVan":{
+      "hocVi": "Thạc sĩ",
+      "daiHoc": "Đại học Nông Lâm TP.HCM",
+      "namTotNghiep":20118
+    },
+    "kinhNghiem": 6,
+    "luong": 20000000,
+    "ngayVaoLam": "2018-09-15",
+    "trangThai": "Đang làm việc",
+    "hinhAnh": "BS002.png"
+  },
+  {
+    "ID_BacSi": "BS003",
+    "hinh": "assets/images/BS003.png",
+    "hoTen": "Lê Tài Nguyên",
+    "ngaySinh": "1989-04-29",
+    "gioiTinh": "Nam",
+    "soDienThoai": "0923456789",
+    "email": "nguyenlt.petdaily@gmail.com",
+    "chuyenMon": "Nội Khoa - Ngoại Khoa",
+    "hocVan":{
+      "hocVi": "Tiến sĩ",
+      "daiHoc": "Đại học Y dược TP.HCM",
+      "namTotNghiep":2018
+    },
+    "kinhNghiem": 13,
+    "luong": 33000000,
+    "ngayVaoLam": "2012-09-24",
+    "trangThai": "Đang làm việc",
+    "hinhAnh": "BS003.png"
+  },
+  {
+    "ID_BacSi": "BS004",
+    "hinh": "assets/images/BS004.png",
+    "hoTen": "Lê Từ Minh Thi",
+    "ngaySinh": "1998-09-07",
+    "gioiTinh": "Nữ",
+    "soDienThoai": "0923456789",
+    "email": "thiltm.petdaily@gmail.com",
+    "chuyenMon": "Dinh dưỡng thú y",
+    "hocVan":{
+      "hocVi": "Thạc sĩ",
+      "daiHoc": "Đại học Nông Lâm TP.HCM",
+      "namTotNghiep":2020
+    },
+    "kinhNghiem": 4,
+    "luong": 12000000,
+    "ngayVaoLam": "2020-07-20",
+    "trangThai": "Đang làm việc",
+    "hinhAnh": "BS004.png"
+  },
+  {
+    "ID_BacSi": "BS005",
+    "hinh": "assets/images/BS005.png",
+    "hoTen": "Nguyễn Thị Thu Thảo",
+    "ngaySinh": "1997-08-17",
+    "gioiTinh": "Nữ",
+    "soDienThoai": "0923456789",
+    "email": "thaontt.petdaily@gmail.com",
+    "chuyenMon": "Dinh dưỡng thú y",
+    "hocVan":{
+      "hocVi": "Thạc sĩ",
+      "daiHoc": "Đại học Cần Thơ",
+      "namTotNghiep":2019
+    },
+    "kinhNghiem": 5,
+    "luong": 15000000,
+    "ngayVaoLam": "2020-11-19",
+    "trangThai": "Đang làm việc",
+    "hinhAnh": "BS005.png"
+  },
+  {
+    "ID_BacSi": "BS006",
+    "hinh": "assets/images/BS006.png",
+    "hoTen": "Trương Thanh Thư",
+    "ngaySinh": "1998-02-10",
+    "gioiTinh": "Nữ",
+    "soDienThoai": "0923456789",
+    "email": "thutt.petdaily@gmail.com",
+    "chuyenMon": "Dinh dưỡng thú y",
+    "hocVan":{
+      "hocVi": "Cử nhân",
+      "daiHoc": "Đại học Nông Lâm TP.HCM",
+      "namTotNghiep":2020
+    },
+    "kinhNghiem": 4,
+    "luong": 12000000,
+    "ngayVaoLam": "2020-03-28",
+    "trangThai": "Đang làm việc",
+    "hinhAnh": "BS006.png"
+  },
+  {
+    "ID_BacSi": "BS007",
+    "hinh": "assets/images/BS007.png",
+    "hoTen": "Nguyễn Hoàng Huy",
+    "ngaySinh": "1979-01-14",
+    "gioiTinh": "Nam",
+    "soDienThoai": "0923656789",
+    "email": "huynh.petdaily@gmail.com",
+    "chuyenMon": "Ngoại khoa",
+    "hocVan":{
+      "hocVi": "Tiến sĩ",
+      "daiHoc": "Đại học Nông Lâm TP.HCM",
+      "namTotNghiep":2002
+    },
+    "kinhNghiem": 22,
+    "luong": 50000000,
+    "ngayVaoLam": "2020-07-18",
+    "trangThai": "Đang làm việc",
+    "hinhAnh": "BS007.png"
+  },
+  {
+    "ID_BacSi": "BS008",
+    "hinh": "assets/images/BS008.png",
+    "hoTen": "Võ Văn Nam",
+    "ngaySinh": "1996-08-29",
+    "gioiTinh": "Nam",
+    "soDienThoai": "0373656789",
+    "email": "namvv.petdaily@gmail.com",
+    "chuyenMon": "Nội khoa",
+    "hocVan":{
+      "hocVi": "Thạc sĩ",
+      "daiHoc": "Đại học Y dược TP.HCM",
+      "namTotNghiep":2018
+    },
+    "kinhNghiem":6 ,
+    "luong": 18000000,
+    "ngayVaoLam": "2022-05-04",
+    "trangThai": "Đang làm việc",
+    "hinhAnh": "BS008.png"
+  }
+]
+

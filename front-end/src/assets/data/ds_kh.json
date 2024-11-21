@@ -1,0 +1,163 @@
+[
+    {
+        "ID_KH": "KH001",
+        "hoTen": "Nguyễn Văn An",
+        "email": "nguyenvana@gmail.com",
+        "sdt": "0901234567",
+        "password": "pass123A"
+    },
+    {
+        "ID_KH": "KH002",
+        "hoTen": "Trần Ngọc Bình",
+        "email": "binhtn@gmail.com",
+        "sdt": "0902345678",
+        "password": "binhbo123B"
+    },
+    {
+        "ID_KH": "KH003",
+        "hoTen": "Lê Văn Côngg",
+        "email": "conglv@gmail.com",
+        "sdt": "0903456789",
+        "password": "congtam432C"
+    },
+    {
+        "ID_KH": "KH004",
+        "hoTen": "Phạm Bình Dung",
+        "email": "binhdungpb@gmail.com",
+        "sdt": "0904567890",
+        "password": "binhthan234D"
+    },
+    {
+        "ID_KH": "KH005",
+        "hoTen": "Hoang Văn Thụ",
+        "email": "thuhv@gmail.com",
+        "sdt": "0905678901",
+        "password": "thutien123E"
+    },
+    {
+        "ID_KH": "KH006",
+        "hoTen": "Ngô Thị Hân",
+        "email": "hannt12@gmail.com",
+        "sdt": "0906789012",
+        "password": "handoicode12F"
+    },
+    {
+        "ID_KH": "KH007",
+        "hoTen": "Đặng Văn Giang",
+        "email": "giangdv48@gmail.com",
+        "sdt": "0907890123",
+        "password": "gianlan490uG"
+    },
+    {
+        "ID_KH": "KH008",
+        "hoTen": "Bùi Thị Hương",
+        "email": "huongbt239@gmail.com",
+        "sdt": "0908901234",
+        "password": "huongsac4311H"
+    },
+    {
+        "ID_KH": "KH009",
+        "hoTen": "Trần Văn Toản",
+        "email": "tonatv36@gmail.com",
+        "sdt": "0909012345",
+        "password": "tonatv123I"
+    },
+    {
+        "ID_KH": "KH010",
+        "hoTen": "Phạm Văn Khang",
+        "email": "khangpv3490@gmail.com",
+        "sdt": "0910123456",
+        "password": "khangpv3690J"
+    },
+    {
+        "ID_KH": "KH011",
+        "hoTen": "Nguyễn Văn Hồng",
+        "email": "hongnvht@gmail.com",
+        "sdt": "0911234567",
+        "password": "hongcodenua3K"
+    },
+    {
+        "ID_KH": "KH012",
+        "hoTen": "Lê Thị Linh",
+        "email": "linhthile@gmail.com",
+        "sdt": "0912345678",
+        "password": "linhle123L"
+    },
+    {
+        "ID_KH": "KH013",
+        "hoTen": "Vũ Văn Minh",
+        "email": "vuvanminh2221@gmail.com",
+        "sdt": "0913456789",
+        "password": "minhvu123M"
+    },
+    {
+        "ID_KH": "KH014",
+        "hoTen": "Đỗ Thị Nhạt",
+        "email": "nhatnhoasp@gmail.com",
+        "sdt": "0914567890",
+        "password": "nhatlamgoi333N"
+    },
+    {
+        "ID_KH": "KH015",
+        "hoTen": "Hoang Ngọc Lâm",
+        "email": "ngochoanglam@gmail.com",
+        "sdt": "0915678901",
+        "password": "ngochoanG574"
+    },
+    {
+        "ID_KH": "KH016",
+        "hoTen": "Phan Thị Phanh",
+        "email": "phanthiph332@gmail.com",
+        "sdt": "0916789012",
+        "password": "phanhgap123P"
+    },
+    {
+        "ID_KH": "KH017",
+        "hoTen": "Ngô Văn Quan",
+        "email": "quanquexe@gmail.com",
+        "sdt": "0917890123",
+        "password": "quanquai324Q"
+    },
+    {
+        "ID_KH": "KH018",
+        "hoTen": "Lương Thị Rương",
+        "email": "luongrthi45@gmail.com",
+        "sdt": "0918901234",
+        "password": "ruongbau379"
+    },
+    {
+        "ID_KH": "KH019",
+        "hoTen": "Đặng Văn Sâm",
+        "email": "dangvsam@gmail.com",
+        "sdt": "0919012345",
+        "password": "samlai342S"
+    },
+    {
+        "ID_KH": "KH020",
+        "hoTen": "Trần Thị Tâm",
+        "email": "tamthanthi@gmail.com",
+        "sdt": "0920123456",
+        "password": "tamtai452T"
+    },
+    {
+        "ID_KH": "KH021",
+        "hoTen": "Nguyễn Văn Uông",
+        "email": "uongnuocnv@gmail.com",
+        "sdt": "0921234567",
+        "password": "uongiu532U"
+    },
+    {
+        "ID_KH": "KH022",
+        "hoTen": "Bùi Thị Vy",
+        "email": "vythibui@gmail.com",
+        "sdt": "0922345678",
+        "password": "pass123V"
+    },
+    {
+        "ID_KH": "KH023",
+        "hoTen": "Lê Văn Quách",
+        "email": "levanwq32@gmail.com",
+        "sdt": "0923456789",
+        "password": "quachqt345W"
+    }
+]

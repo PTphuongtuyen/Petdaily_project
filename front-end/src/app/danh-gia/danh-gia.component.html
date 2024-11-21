@@ -1,0 +1,64 @@
+<div>
+    <app-header></app-header>
+</div>
+<!-- nội dung -->
+<div class="header">
+  <img src="assets/my-images/banner_danhgia.png" alt="banner_danhgia">
+ </div>
+ <br>
+ <div class="container">
+  <div class="rating-section">
+    <div class="left-section ">
+      <h3 class="fw-bold ">ĐÁNH GIÁ DỊCH VỤ</h3>
+      <div class="average-rating spacing">
+        <span>{{ averageRating | number: '1.0-1' }}/5</span>
+        <span class="star">★</span>
+      </div>
+      <p class="text-center">({{ totalReviews }} nhận xét)</p>
+    </div>
+    <div class="right-section">
+      <div class="rating-row star" *ngFor="let star of [5, 4, 3, 2, 1]">
+        <div>{{ star }} <i class="bi bi-star-fill"></i></div>
+        <div class="progress-bar">
+          <div class="progress" [style.width.%]="getPercentage(star)"></div>
+        </div>
+        <div>{{ getPercentage(star) | number: '1.0-0' }}%</div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  
+  <div class="review-list ">
+    <p class="display"><strong>Chọn xem đánh giá</strong></p> &nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="filter display ">
+      
+      <select [(ngModel)]="filter.danhGia" (change)="loadReviews()">
+        <option value="">Tất cả sao</option>
+        <option *ngFor="let star of [5, 4, 3, 2, 1]" [value]="star">{{ star }} <i class="bi bi-star-fill"></i></option>
+      </select>
+      <select [(ngModel)]="filter.linhVuc" (change)="loadReviews()">
+        <option value="">Tất cả lĩnh vực</option>
+        <option value="Chăm sóc sức khỏe">Chăm sóc sức khỏe</option>
+        <option value="Spa-Grooming">Spa-Grooming</option>
+      </select>
+    </div>
+    <hr>
+  
+    <div class="review-item" *ngFor="let review of reviews">
+      <div class="review-header fs-4 display">
+        <i class="bi bi-star-fill "></i><span>{{ review.danhGia }} </span>
+        <h4 class="display">{{ review.tenGoi }}</h4>
+      </div>
+      <div class="d-flex align-items-start flex-column mb-3">
+        <p class="d-flex p-2">{{ review.binhLuan }}</p>
+      </div>
+      
+    </div>
+  </div>
+ </div>
+
+<div>
+    <app-footer></app-footer>
+</div>
+

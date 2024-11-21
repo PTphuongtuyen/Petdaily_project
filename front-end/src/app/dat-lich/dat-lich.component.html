@@ -1,0 +1,155 @@
+<div>
+  <app-header></app-header>
+</div>
+
+<!-- nội dung -->
+<div class="form-section">
+  <h2>ĐẶT LỊCH HẸN ONLINE</h2>
+  <p>Hẹn trước lịch sẽ giúp chúng tôi có thể phục vụ bạn chu đáo.</p>
+  <hr>
+
+
+  <!-- Form đặt lịch -->
+  <div class="form">
+      <form #formRef="ngForm" (ngSubmit)="handleFormSubmit()" novalidate>
+          <div class="form-group">
+              <label for="hoTen">Họ tên <span class="required">*</span></label>
+              <input type="text" [(ngModel)]="appointment.hoTen" name="hoTen" placeholder="Nhập họ tên" required>
+          </div>
+          <div class="form-group">
+              <label for="soDienThoai">Số Điện thoại <span class="required">*</span></label>
+              <input type="text" [(ngModel)]="appointment.soDienThoai" name="soDienThoai" placeholder="Nhập số điện thoại" pattern="[0-9]*" title="Vui lòng chỉ nhập số" (oninput)="validatePhoneNumber('soDienThoai')">
+          </div>
+          <div class="form-group">
+              <label for="ngLienhekhac">Người liên hệ khác</label>
+              <input type="text" [(ngModel)]="appointment.ngLienhekhac" name="ngLienhekhac" placeholder="Nhập tên người liên hệ khác">
+          </div>
+          <div class="form-group">
+              <label for="sdt_ngLienhekhac">Số điện thoại người liên lạc khác</label>
+              <input type="text" [(ngModel)]="appointment.sdt_ngLienhekhac" name="sdt_ngLienhekhac" placeholder="Nhập số điện thoại người liên lạc khác" pattern="[0-9]*" title="Vui lòng chỉ nhập số" (oninput)="validatePhoneNumber('sdt_ngLienhekhac')">
+          </div>
+          <div class="form-group">
+              <label for="email">Email <span class="required">*</span></label>
+              <input type="email" [(ngModel)]="appointment.email" name="email" placeholder="Nhập email" required>
+          </div>
+          <div class="form-group">
+              <label for="loaiThuCung">Thú cưng của bạn</label>
+              <select [(ngModel)]="appointment.loaiThuCung" name="loaiThuCung" required>
+                  <option value="">Chọn loại thú cưng</option>
+                  <option value="Chó">Chó</option>
+                  <option value="Mèo">Mèo</option>
+              </select>
+          </div>
+          <div class="form-group">
+              <label for="dichVu">Chọn dịch vụ <span class="required">*</span></label>
+              <select [(ngModel)]="appointment.dichVu" name="dichVu" required (change)="toggleOptions()">
+                  <option value="">Chọn dịch vụ</option>
+                  <option value="Khách sạn thú cưng">Khách sạn thú cưng</option>
+                  <option value="Chăm sóc sức khỏe - Khám và điều trị bệnh">Chăm sóc sức khỏe - Khám và điều trị bệnh</option>
+                  <option value="Chăm sóc sức khỏe - Tầm soát sức khỏe">Chăm sóc sức khỏe - Tầm soát sức khỏe</option>
+                  <option value="Chăm sóc sức khỏe - Tiêm phòng">Chăm sóc sức khỏe - Tiêm phòng</option>
+                  <option value="Spa - Grooming">Spa - Grooming</option>
+              </select>
+          </div>
+          <!-- Các lựa chọn các gói của dịch vụ -->
+          <div *ngIf="appointment.dichVu === 'Chăm sóc sức khỏe - Tầm soát sức khỏe'" class="form-group indented">
+              <label for="goiKham">Chọn gói khám:</label>
+              <select id="Chăm sóc sức khỏe - Tầm soát sức khỏe" name="goiKham">
+                  <option value="Gói khám cơ bản">Gói khám cơ bản</option>
+                  <option value="Gói khám tổng quát">Gói khám tổng quát</option>
+                  <option value="Gói khám chuyên sâu">Gói khám chuyên sâu</option>
+              </select>
+          </div>
+  
+          <div *ngIf="appointment.dichVu === 'Chăm sóc sức khỏe - Tiêm phòng'" class="form-group indented">
+              <label for="goiTiemPhong">Chọn gói tiêm phòng:</label>
+              <select id="goiTiemPhong" name="goiTiemPhong">
+                  <option value="Tiêm phòng vaccine 4 bệnh">Tiêm phòng vaccine 4 bệnh</option>
+                  <option value="Tiêm phòng vaccine dại">Tiêm phòng vaccine dại</option>
+                  <option value="Tiêm phòng vaccine 4 bệnh + dại">Tiêm phòng vaccine 4 bệnh + dại</option>
+              </select>
+          </div>
+          
+          <div *ngIf="appointment.dichVu === 'Spa - Grooming'" class="form-group indented">
+              <label for="goiSpaGrooming">Chọn gói Spa-Grooming:</label>
+              <select id="goiSpaGrooming" name="goiSpaGrooming">
+                  <option value="Tắm làm sạch 8 bước">Tắm làm sạch 8 bước</option>
+                  <option value="Cạo tắm 9 bước">Cạo tắm 9 bước</option>
+                  <option value="Cắt tỉa 10 bước">Cắt tỉa 10 bước</option>
+              </select>
+          </div>
+  
+  
+          <!-- Các lựa chọn dịch vụ tùy chọn -->
+          <div *ngIf="appointment.dichVu === 'Khách sạn thú cưng'" class="form-group indented">
+              <label for="ngayBatDau">Ngày bắt đầu</label>
+              <input type="date" [(ngModel)]="appointment.ngayBatDau" name="ngayBatDau" [min]="today" (change)="syncAppointmentDate()">
+          </div>
+          <div *ngIf="appointment.dichVu === 'Khách sạn thú cưng'" class="form-group indented">
+              <label for="ngayKetThuc">Ngày kết thúc</label>
+              <input type="date" [(ngModel)]="appointment.ngayKetThuc" name="end_date" [min]="appointment.ngayBatDau" (change)="syncAppointmentDate()">
+          </div>
+  
+          <div class="form-group">
+              <label for="hinhThuc">Chọn hình thức: <span class="required">*</span></label>
+              <select [(ngModel)]="appointment.hinhThuc" name="hinhThuc" required (change)="toggleAddressField()">
+                <option value="">Chọn hình thức: </option>
+                <option value="Tại cửa hàng PetDaily">Tại cửa hàng PetDaily</option>
+                <option value="Tại nhà">Tại nhà</option>
+              </select>
+          </div>
+  
+          <div *ngIf="appointment.hinhThuc === 'Tại nhà'" class="form-group indented" id="diaChi">
+              <label for="diaChi">Địa chỉ nhà bạn:</label>
+              <input type="text" [(ngModel)]="appointment.diaChi" name="diaChi" placeholder="Nhập địa chỉ nhà">
+          </div>
+  
+          <div class="form-group">
+              <label for="ngayHen">Ngày hẹn <span class="required">*</span></label>
+              <input type="date" [(ngModel)]="appointment.ngayHen" name="ngayHen" [min]="today" (change)="syncAppointmentDate()" required>
+          </div>
+  
+          <div class="form-group">
+              <label for="gioHen">Giờ hẹn <span class="required">*</span></label>
+              <select [(ngModel)]="appointment.gioHen" name="gioHen" required>
+                  <option value="">Chọn giờ hẹn</option>
+                  <option value="08:00">08:00</option>
+                  <option value="09:00">09:00</option>
+                  <option value="10:00">10:00</option>
+                  <option value="11:00">11:00</option>
+                  <option value="13:00">13:00</option>
+                  <option value="14:00">14:00</option>
+                  <option value="15:00">15:00</option>
+                  <option value="16:00">16:00</option>
+                  <option value="17:00">17:00</option>
+                  <option value="18:00">18:00</option>
+                  <option value="19:00">19:00</option>
+                  <option value="20:00">20:00</option>
+              </select>
+          </div>
+  
+          <div class="form-group">
+              <label for="luuY">Lưu ý về thú cưng</label>
+              <textarea [(ngModel)]="appointment.luuY" name="luuY" placeholder="Triệu chứng của thú cưng, lưu ý khi chăm sóc thú cưng"></textarea>
+          </div>
+  
+          <input type="submit" value="ĐẶT HẸN">
+      </form>
+  </div>
+  
+
+</div>
+
+<!-- Modal popup -->
+<div *ngIf="isModalVisible" class="modal">
+  <div class="modal-content">
+      <span class="close" (click)="closeModal()">&times;</span>
+      <h5>Bạn đã đặt lịch thành công</h5>
+      <p>Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi.</p>
+  </div>
+</div>
+
+
+<div>
+  <app-footer></app-footer>
+</div>

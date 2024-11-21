@@ -1,0 +1,49 @@
+<div>
+    <app-header></app-header>
+</div>
+
+<!-- nội dung -->
+<div class="banner">
+    <img src="" alt="">
+
+</div>
+
+<div class="container">
+
+    <div class="phantren">
+
+        <div class="title">
+            <img src="{{ tinTuc.hinh }}" alt="{{ tinTuc.tieuDeChinh }}">
+            <h4>{{ tinTuc.tieuDeChinh }}</h4>
+        </div>   
+
+        <div class="lienquan">
+            <h4>BÀI VIẾT LIÊN QUAN</h4>
+            <a [routerLink]="['/tinTuc', article.maTinTuc]" *ngFor="let article of relatedArticles.slice(0, 2)">
+                <div class="lq-hinh">
+                    <img [src]="article.hinh || 'assets/default-image.png'" alt="{{ article.tieuDeChinh }}">
+                </div>
+                <div class="lq-chu">
+                    <h5>{{ article.tieuDeChinh }}</h5>
+                    <p class="ngay">Ngày: {{ article.ngay }}</p>
+                </div>
+            </a>
+        </div> 
+    </div>
+       
+    <div class="noidung" >
+        <div *ngFor="let nd of tinTuc?.noiDung">
+            <h5>{{ nd.tieuDePhu }}</h5>
+            <p>{{ nd.noiDungPhu }}</p>
+        </div>
+      
+    </div>
+    </div>
+
+  
+  
+
+<!-- footer  -->
+<div>
+    <app-footer></app-footer>
+</div>
