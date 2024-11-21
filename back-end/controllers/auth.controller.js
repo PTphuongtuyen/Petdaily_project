@@ -11,17 +11,6 @@ try{
   if (!user) {
     return res.status(400).json({ message: 'Email không tồn tại' });
   }
-
-  // const updatePassword = async () => {
-  //   const user = await User.findOne(email);
-  //   if (user) {
-  //     user.password = await bcrypt.hash(password, 10);
-  //     await user.save();
-  //     console.log('Mật khẩu đã được mã hóa');
-  //   }
-  // };
-  // updatePassword();
-
   // Kiểm tra mật khẩu
   const isMatch = await user.comparePassword(password);
   if (!isMatch) {

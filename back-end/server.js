@@ -49,12 +49,12 @@ app.use('/datlich', datLichRoutes);
 // đánh giá
 const reviewRoutes = require('./routes/danhgia.routes');
 app.use('/reviews', reviewRoutes);
-// Routes
-app.use('/api/resetpass', ResetpassRoutes);
 
 // Cho phép truy cập công khai thư mục 'uploads'
 app.use('/image_review', express.static(path.join(__dirname, 'uploads')));
 
+// Routes
+app.use('/api/resetpass', ResetpassRoutes);
 
 
 // Khởi chạy server

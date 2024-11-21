@@ -3,12 +3,6 @@ const User = require('../models/user');
 // Đăng ký người dùng
 exports.registerUser = async (req, res) => {
   const { hoTen, email, sdt, password, captchaInput } = req.body;
-
-  // Kiểm tra CAPTCHA
-  if (!req.session.captcha || captchaInput !== req.session.captcha) {
-    return res.status(400).json({ message: 'CAPTCHA không chính xác!' });
-  }
-
   // Kiểm tra email đã tồn tại
   const existingUser = await User.findOne({ email });
   if (existingUser) {
@@ -25,3 +19,8 @@ exports.registerUser = async (req, res) => {
     res.status(500).json({ message: 'Lỗi hệ thống', error: error.message });
   }
 };
+
+ // Kiểm tra CAPTCHA
+  // if (!req.session.captcha || captchaInput !== req.session.captcha) {
+  //   return res.status(400).json({ message: 'CAPTCHA không chính xác!' });
+  // }

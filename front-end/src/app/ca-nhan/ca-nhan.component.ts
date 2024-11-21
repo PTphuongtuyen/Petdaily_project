@@ -7,7 +7,7 @@ import { HSCNComponent } from './hscn/hscn.component';
 @Component({
   selector: 'app-ca-nhan',
   standalone: true,
-  imports: [HeaderComponent, FooterComponent,RouterModule, HSCNComponent],
+  imports: [HeaderComponent, FooterComponent,RouterModule],
   templateUrl: './ca-nhan.component.html',
   styleUrl: './ca-nhan.component.css'
 })
