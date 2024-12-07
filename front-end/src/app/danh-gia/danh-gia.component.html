@@ -2,6 +2,7 @@
     <app-header></app-header>
 </div>
 <!-- nội dung -->
+ <!-- Header hiển thị tb số sao -->
 <div class="header">
   <img src="assets/my-images/banner_danhgia.png" alt="banner_danhgia">
  </div>
@@ -28,42 +29,64 @@
   </div>
 
   <hr>
-  
+<!-- Thanh lọc đánh giá -->
   <div class="review-list ">
+
     <p class="display"><strong>Chọn xem đánh giá</strong></p> &nbsp;&nbsp;&nbsp;&nbsp;
-    <div class="filter display ">
-      
+    <div class="filter display ms-2 ">
+      <!-- Lọc đánh giá theo độ hữu ích -->
       <select [(ngModel)]="filter.danhGia" (change)="loadReviews()">
-        <option value="">Tất cả sao</option>
-        <option *ngFor="let star of [5, 4, 3, 2, 1]" [value]="star">{{ star }} <i class="bi bi-star-fill"></i></option>
+        <option value="">Hữu ích</option>
+        <option value="">Tất cả bài viết</option>
       </select>
+      <!-- Lọc đánh giá theo loại dịch vụ -->
       <select [(ngModel)]="filter.linhVuc" (change)="loadReviews()">
-        <option value="">Tất cả lĩnh vực</option>
+        <option value="">Tất cả dịch vụ</option>
+        <option value="Khách sạn thú cưng">Khách sạn thú cưng</option>
         <option value="Chăm sóc sức khỏe">Chăm sóc sức khỏe</option>
         <option value="Spa-Grooming">Spa-Grooming</option>
       </select>
+
+      <!-- Lọc đánh giá theo số sao -->
+      <select [(ngModel)]="filter.danhGia" (change)="loadReviews()" >
+        <option value="">Tất cả sao</option>
+        <option *ngFor="let star of [5, 4, 3, 2, 1]" [value]="star">{{ star }} <i class="bi bi-star-fill"></i></option>
+      </select>
+
     </div>
     <hr>
-  
-    <div class="review-item" *ngFor="let review of reviews">
-      <div class="review-header fs-4">
-        <i class="bi bi-star-fill "></i><span>{{ review.danhGia }} </span>
-        <p>
-          <img  [src]="review.hinhAnh" alt="Service Image" class="service-img limit-img" />
-          <h4 class="display">{{ review.tenGoi }}</h4>
-       
-        
-        <p><i class="display text-black">Ngày: {{ review.ngay | date:'dd-MM-yyyy' }}</i></p>
-        
-      </div>
-      <div class="d-flex align-items-start flex-column mb-3">
-        <p class="d-flex p-2">{{ review.binhLuan }}</p>
-      </div>
-      
-    </div>
-  </div>
- </div>
 
+    <div class="review-item" *ngFor="let review of reviews">
+      <!-- Phần chứa avatar và tên người đánh giá -->
+      <div class="review-item-left">
+        <img src="assets/my-images/person-circle.png" alt="Avatar" class="avatar">
+        <p class="reviewer-name">{{review.hoTen}}</p>
+      </div>
+    
+      <!-- Phần chứa hình ảnh dịch vụ và thông tin dịch vụ -->
+      <div class="container-review-item">
+        <!-- Hình ảnh bên trái và thông tin dịch vụ bên phải -->
+        <div class="review-header">
+          <p>
+            <span><i class="bi bi-star-fill"></i> {{ review.danhGia }} </span> 
+            <br>         
+            <img [src]="review.hinhAnh" alt="Service Image" class="service-img"> 
+          </p>
+
+          <div class="service-info">
+
+            <h4 class="service-name">{{ review.tenGoi }} </h4>
+            <p class="review-date fst-italic">Ngày: {{ review.ngay | date:'dd-MM-yyyy' }}</p>
+          </div>
+        </div>
+    
+        <!-- Box chứa nội dung bình luận -->
+        <div class="comment-box">
+          <p class="review-text">{{ review.binhLuan }} </p>
+        </div>
+      </div>
+    </div>
+    
 <div>
     <app-footer></app-footer>
 </div>

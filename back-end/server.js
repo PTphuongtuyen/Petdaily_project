@@ -41,11 +41,13 @@ app.get('/',(req,res) =>{
 })
 app.use('/api/dangnhap', authRoutes);    // Route cho chức năng đăng nhập
 app.get('/api/dangnhap',cors(), authRoutes)
+
 app.use('/api/dangky',registerRoutes)    // Route cho chức năng đăng ký
 
 
 // Đăth lịch 
 app.use('/datlich', datLichRoutes);
+
 // đánh giá
 const reviewRoutes = require('./routes/danhgia.routes');
 app.use('/reviews', reviewRoutes);
